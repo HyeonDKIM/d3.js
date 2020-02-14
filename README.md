@@ -1,4 +1,2 @@
-d3.js Study
-=============
-#node js & express 기본
-
+# [node.js와 express]
+# [d3.js]
