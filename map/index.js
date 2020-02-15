@@ -1,5 +1,5 @@
 var SERVER_PORT = 8090; // 서버포트
-var FILE_DEFAULT = "tst.html";
+var FILE_DEFAULT = "map.html";
 
 // 모듈 로드
 var
