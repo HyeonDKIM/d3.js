@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<meta charset="utf-8">
+<style>
+
+    .place-label {
+        font-size: 12px;
+        fill: #7C9DE8;
+    }
+
+    .background {
+        fill: #CEF6F5;
+        pointer-events: all;
+    }
+
+    .feature {
+        fill:#1919D4;
+        cursor: pointer;
+    }
+
+    .feature.active {
+        fill: #96F422;
+    }
+
+    .feature:hover {
+        fill: #96F422;
+    }
+    .mesh {
+        fill:none;
+        stroke:#fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+    }
+</style>
+
+
+<body>
+    <h1>Gwangju Map</h1>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <br><br>
+
+    <div id="d3_gwangju"></div>
+
+    <!-- 라이브러리 로드 -->
+    <script src="d3.v3.min.js"></script>
+    <script src="topojson.v0.min.js"></script>
+    <script src="map_d3.js"></script>
+</body>
+
+</html>

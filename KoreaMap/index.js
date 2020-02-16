@@ -1,5 +1,8 @@
+// HTTP 서버를 만든다.
+//-----------------------------
+// 설정
 var SERVER_PORT = 8090; // 서버포트
-var FILE_DEFAULT = "map.html";
+var FILE_DEFAULT = "tst.html";
 
 // 모듈 로드
 var
@@ -8,8 +11,9 @@ var
   path = require('path'),
   fs   = require('fs');
 
-var sever = http.createServer(checkRequest);
-sever.listen(SERVER_PORT, function(){
+// 서버 기동
+var svr = http.createServer(checkRequest);
+svr.listen(SERVER_PORT, function(){
   console.log("서버가 기동되었습니다");
   console.log("http://localhost:" + SERVER_PORT);
 });
