@@ -1,24 +1,28 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
-<style>
-    .boundary {
-        fill: none;
-        stroke: black;
-        stroke-dasharray: 2, 2;
-        stroke-linejoin: round;
-    }
+<html>
 
-    .place-label {
-        font-size: 10px;
-        fill: #2E2EFE;
-    }
-</style>
+<header>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/customCss.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+</header>
 
 <body>
+    <h1>대한민국 지도당</h1>
+    <button type=button class="btn">a</button>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <br><br>
+
+    <div id="d3_korea"></div>
+    <div id="chart">차트 입력</div>
+
     <!-- 라이브러리 로드 -->
     <script src="d3.v3.min.js"></script>
     <script src="topojson.v0.min.js"></script>
     <script src="map_d3.js"></script>
+    <script src="chart.js"></script>
+    <script src="js/bootstrap.js"></script>
 </body>
 
 </html>

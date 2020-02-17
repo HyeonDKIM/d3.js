@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+.boundary {
+    fill: none;
+    stroke: black;
+    stroke-dasharray: 2, 2;
+    stroke-linejoin: round;
+}
+.place-label {
+    font-size: 12px;
+    fill: #7C9DE8;
+}
+
+.background {
+    fill: #CEF6F5;
+    pointer-events: all;
+}
+
+.feature {
+    fill:#1919D4;
+    cursor: pointer;
+}
+
+.feature.active {
+    fill: #96F422;
+}
+
+.feature:hover {
+    fill: #96F422;
+}
+.mesh {
+    fill:none;
+    stroke:#fff;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+div#d3_gwangju{
+    float:left;
+    margin: 10px;
+}
+#chart{
+    width:400px;
+    height:600px;
+    background-color: aqua;
+    float:left;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+}
