@@ -1,3 +1,9 @@
+/* 참고 사이트
+https://bl.ocks.org/mbostock/4699541
+https://teeeeeeemo.tistory.com/35
+http://www.gisdeveloper.co.kr/?p=2332
+*/
+
 // SVG 영역 생성
 var width = 800, height = 600, active = d3.select(null);
 var svg = d3.select("#d3_gwangju").append("svg").attr({ "width": width, "height": height });
