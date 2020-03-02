@@ -1,32 +1,25 @@
 @charset "utf-8";
 
-.boundary {
-    fill: none;
-    stroke: black;
-    stroke-dasharray: 2, 2;
-    stroke-linejoin: round;
-}
 .place-label {
     font-size: 12px;
-    fill: #7C9DE8;
+    fill: #1919D4;
 }
 
 .background {
-    fill: #CEF6F5;
+    fill: #CADBE9;
     pointer-events: all;
 }
 
 .feature {
-    fill:#1919D4;
-    cursor: pointer;
+    fill:#6AAFE6;
 }
 
 .feature.active {
-    fill: #96F422;
+    fill: #4F86C6;
 }
 
 .feature:hover {
-    fill: #96F422;
+    fill: #4F86C6;
 }
 .mesh {
     fill:none;
@@ -40,15 +33,50 @@
 }
 
 div#d3_korea{
+    margin-left: 100px;
     float:left;
-    margin: 10px;
+    position: relative;
+    width:600px;
+    height:900px;
+
 }
 #chart{
     width:600px;
     height:900px;
-    background-color: aqua;
-    float:left;
+    background-color: #CADBE9;
     font-size: 30px;
     text-align: center;
-    margin: 10px;
+    margin-left: 800px;
+    position: relative;
+}
+#local_map{
+    width: 500px;
+    height: 400px;
+    background-color: #CEF6F5;
+    left: 50px;
+    position: absolute;
+    pointer-events: all;
+    margin: 0 auto;
+}
+#option_map{
+    width: 500px;
+    height: 400px;
+    background-color: #CEF6F5;
+    top: 470px;
+    left: 50px;
+    position: absolute;
+    pointer-events: all;
+    margin: 0 auto;
+}
+#table{
+    width: 1300px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 100px;
+    background-color: #CADBE9;
+    bottom:0px;
+    font-size: 30px;
+}
+svg text {
+    font-size: 12px;
 }
