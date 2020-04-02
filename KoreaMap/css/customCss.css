@@ -21,6 +21,24 @@
 .feature:hover {
     fill: #4F86C6;
 }
+
+
+.feature_place {
+    fill:#6AAFE6;
+}
+
+.feature_place.active {
+    fill: #4F86C6;
+}
+
+.feature_place:hover {
+    fill: #4F86C6;
+}
+.bar {
+    fill:#6AAFE6;
+    stroke: #4F86C6;
+}
+
 .mesh {
     fill:none;
     stroke:#fff;
@@ -58,7 +76,7 @@ div#d3_korea{
     pointer-events: all;
     margin: 0 auto;
 }
-#option_map{
+#option{
     width: 500px;
     height: 400px;
     background-color: #CEF6F5;

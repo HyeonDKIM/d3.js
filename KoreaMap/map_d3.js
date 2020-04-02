@@ -5,7 +5,7 @@ http://www.gisdeveloper.co.kr/?p=2332
 */
 
 // SVG 영역 생성
-var width = 600, height = 900, place_map_width = 500, place_map_height = 400, active = d3.select(null);
+var width = 600, height = 900, place_map_width = 500, place_map_height = 400, table_width = 1200, table_height = 500, active = d3.select(null);
 var svg = d3.select("#d3_korea").append("svg").attr({ "width": width, "height": height });
 var svg_PlaceMap = d3.select("#local_map").append("svg").attr({ "width": place_map_width, "height": place_map_height });
 svg_PlaceMap.append("rect")
@@ -82,13 +82,21 @@ d3.json("topology/korea-topo.json", function (err, map) {
 });
 
 function clicked(d) {
-    if (active.node() === this) return reset();
+    if (active.node() === this) return reset(); //===는 만약 a===b이라고 했을때, a가 b과 '값'과 '타입/형식?'이 정확하게 같은지를 판단해서 true/false를 표현합니다
     active.classed("active", false);
     active = d3.select(this).classed("active", true);
     clickedPlace = d.properties.name;
     console.log(clickedPlace);
     jsonFile, geoInfo, center_projection, scale = WheresThePlace(clickedPlace);
     remove_svg(jsonFile, geoInfo, center_projection, scale);
+}
+
+function clicked_place(d){
+    if (active.node() === this) return reset_place();
+    active.classed("active", false);
+    active = d3.select(this).classed("active", true);
+    var clickedplace_place = d.properties.SIG_ENG_NM;
+    console.log(clickedplace_place);
 }
 
 function reset() {
@@ -103,6 +111,11 @@ function reset() {
         remove_svg(jsonFile, geoInfo, center_projection, scale);
     }
 
+}
+
+function reset_place(){
+    active.classed("active", false);
+    active = d3.select(null);
 }
 
 function remove_svg(jsonFile, geoInfo, center_projection, scale) {
@@ -129,7 +142,8 @@ function remove_svg(jsonFile, geoInfo, center_projection, scale) {
                 .data(map_o_PlaceMap.geometries)
                 .enter().append("path")
                 .attr("d", path2)
-                .attr("class", "feature");
+                .attr("class", "feature_place")
+                .on("click", clicked_place);
 
             // 경계선
             var mesh = topojson.mesh(
