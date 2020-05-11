@@ -49,6 +49,10 @@
     fill: #CEF6F5;
     pointer-events: all;
 }
+.hwakjin{
+    background-color: white;
+    color:black
+}
 
 div#d3_korea{
     margin-left: 100px;
@@ -86,7 +90,7 @@ div#d3_korea{
     pointer-events: all;
     margin: 0 auto;
 }
-#table{
+#map{
     width: 1300px;
     height: 600px;
     margin-top: 50px;
