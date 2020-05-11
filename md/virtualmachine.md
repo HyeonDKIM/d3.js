@@ -14,3 +14,6 @@
       $ sudo apt-get install openssh-server
       $ service ssh start/restart
     6. 어댑터의 3, 4번과 동일한 단계 거치면 끝!
+
+#### remote 관련
+    $ scp <옮길 파일명> <옮기는 대상 host>@<ip주소>:<대상 폴더>
