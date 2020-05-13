@@ -1,0 +1,1635 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', 'mongoose' ]
+2 info using npm@3.5.2
+3 info using node@v4.2.6
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData mongoose
+8 silly fetchNamedPackageData mongoose
+9 silly mapToRegistry name mongoose
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/mongoose
+13 verbose get https://registry.npmjs.org/mongoose not expired, no request
+14 silly install normalizeTree
+15 silly loadCurrentTree Finishing
+16 silly loadIdealTree Starting
+17 silly install loadIdealTree
+18 silly cloneCurrentTree Starting
+19 silly install cloneCurrentTreeToIdealTree
+20 silly cloneCurrentTree Finishing
+21 silly loadShrinkwrap Starting
+22 silly install loadShrinkwrap
+23 silly loadShrinkwrap Finishing
+24 silly loadAllDepsIntoIdealTree Starting
+25 silly install loadAllDepsIntoIdealTree
+26 silly resolveWithNewModule mongoose@5.9.13 checking installable status
+27 silly cache add args [ 'mongoose', null ]
+28 verbose cache add spec mongoose
+29 silly cache add parsed spec Result {
+29 silly cache add   raw: 'mongoose',
+29 silly cache add   scope: null,
+29 silly cache add   name: 'mongoose',
+29 silly cache add   rawSpec: '',
+29 silly cache add   spec: 'latest',
+29 silly cache add   type: 'tag' }
+30 silly addNamed mongoose@latest
+31 verbose addNamed "latest" is being treated as a dist-tag for mongoose
+32 info addNameTag [ 'mongoose', 'latest' ]
+33 silly mapToRegistry name mongoose
+34 silly mapToRegistry using default registry
+35 silly mapToRegistry registry https://registry.npmjs.org/
+36 silly mapToRegistry uri https://registry.npmjs.org/mongoose
+37 verbose addNameTag registry:https://registry.npmjs.org/mongoose not in flight; fetching
+38 verbose get https://registry.npmjs.org/mongoose not expired, no request
+39 silly addNameTag next cb for mongoose with tag latest
+40 silly addNamed mongoose@5.9.13
+41 verbose addNamed "5.9.13" is a plain semver version for mongoose
+42 silly cache afterAdd mongoose@5.9.13
+43 verbose afterAdd /home/khj/.npm/mongoose/5.9.13/package/package.json not in flight; writing
+44 verbose afterAdd /home/khj/.npm/mongoose/5.9.13/package/package.json written
+45 silly fetchNamedPackageData bson
+46 silly mapToRegistry name bson
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry uri https://registry.npmjs.org/bson
+50 silly fetchNamedPackageData mongodb
+51 silly mapToRegistry name mongodb
+52 silly mapToRegistry using default registry
+53 silly mapToRegistry registry https://registry.npmjs.org/
+54 silly mapToRegistry uri https://registry.npmjs.org/mongodb
+55 silly fetchNamedPackageData mpath
+56 silly mapToRegistry name mpath
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry uri https://registry.npmjs.org/mpath
+60 silly fetchNamedPackageData ms
+61 silly mapToRegistry name ms
+62 silly mapToRegistry using default registry
+63 silly mapToRegistry registry https://registry.npmjs.org/
+64 silly mapToRegistry uri https://registry.npmjs.org/ms
+65 verbose get https://registry.npmjs.org/bson not expired, no request
+66 silly resolveWithNewModule bson@1.1.4 checking installable status
+67 silly cache add args [ 'bson@^1.1.4', null ]
+68 verbose cache add spec bson@^1.1.4
+69 silly cache add parsed spec Result {
+69 silly cache add   raw: 'bson@^1.1.4',
+69 silly cache add   scope: null,
+69 silly cache add   name: 'bson',
+69 silly cache add   rawSpec: '^1.1.4',
+69 silly cache add   spec: '>=1.1.4 <2.0.0',
+69 silly cache add   type: 'range' }
+70 silly addNamed bson@>=1.1.4 <2.0.0
+71 verbose addNamed ">=1.1.4 <2.0.0" is a valid semver range for bson
+72 silly addNameRange { name: 'bson', range: '>=1.1.4 <2.0.0', hasData: false }
+73 silly mapToRegistry name bson
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry uri https://registry.npmjs.org/bson
+77 verbose addNameRange registry:https://registry.npmjs.org/bson not in flight; fetching
+78 verbose get https://registry.npmjs.org/mongodb not expired, no request
+79 silly resolveWithNewModule mongodb@3.5.7 checking installable status
+80 silly cache add args [ 'mongodb@3.5.7', null ]
+81 verbose cache add spec mongodb@3.5.7
+82 silly cache add parsed spec Result {
+82 silly cache add   raw: 'mongodb@3.5.7',
+82 silly cache add   scope: null,
+82 silly cache add   name: 'mongodb',
+82 silly cache add   rawSpec: '3.5.7',
+82 silly cache add   spec: '3.5.7',
+82 silly cache add   type: 'version' }
+83 silly addNamed mongodb@3.5.7
+84 verbose addNamed "3.5.7" is a plain semver version for mongodb
+85 silly mapToRegistry name mongodb
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npmjs.org/
+88 silly mapToRegistry uri https://registry.npmjs.org/mongodb
+89 verbose addNameVersion registry:https://registry.npmjs.org/mongodb not in flight; fetching
+90 verbose get https://registry.npmjs.org/mpath not expired, no request
+91 silly resolveWithNewModule mpath@0.7.0 checking installable status
+92 silly cache add args [ 'mpath@0.7.0', null ]
+93 verbose cache add spec mpath@0.7.0
+94 silly cache add parsed spec Result {
+94 silly cache add   raw: 'mpath@0.7.0',
+94 silly cache add   scope: null,
+94 silly cache add   name: 'mpath',
+94 silly cache add   rawSpec: '0.7.0',
+94 silly cache add   spec: '0.7.0',
+94 silly cache add   type: 'version' }
+95 silly addNamed mpath@0.7.0
+96 verbose addNamed "0.7.0" is a plain semver version for mpath
+97 silly mapToRegistry name mpath
+98 silly mapToRegistry using default registry
+99 silly mapToRegistry registry https://registry.npmjs.org/
+100 silly mapToRegistry uri https://registry.npmjs.org/mpath
+101 verbose addNameVersion registry:https://registry.npmjs.org/mpath not in flight; fetching
+102 verbose get https://registry.npmjs.org/ms not expired, no request
+103 silly resolveWithNewModule ms@2.1.2 checking installable status
+104 silly cache add args [ 'ms@2.1.2', null ]
+105 verbose cache add spec ms@2.1.2
+106 silly cache add parsed spec Result {
+106 silly cache add   raw: 'ms@2.1.2',
+106 silly cache add   scope: null,
+106 silly cache add   name: 'ms',
+106 silly cache add   rawSpec: '2.1.2',
+106 silly cache add   spec: '2.1.2',
+106 silly cache add   type: 'version' }
+107 silly addNamed ms@2.1.2
+108 verbose addNamed "2.1.2" is a plain semver version for ms
+109 silly mapToRegistry name ms
+110 silly mapToRegistry using default registry
+111 silly mapToRegistry registry https://registry.npmjs.org/
+112 silly mapToRegistry uri https://registry.npmjs.org/ms
+113 verbose addNameVersion registry:https://registry.npmjs.org/ms not in flight; fetching
+114 verbose get https://registry.npmjs.org/bson not expired, no request
+115 silly addNameRange number 2 { name: 'bson', range: '>=1.1.4 <2.0.0', hasData: true }
+116 silly addNameRange versions [ 'bson',
+116 silly addNameRange   [ '0.0.1',
+116 silly addNameRange     '0.0.2',
+116 silly addNameRange     '0.0.3',
+116 silly addNameRange     '0.0.4',
+116 silly addNameRange     '0.0.5',
+116 silly addNameRange     '0.0.6',
+116 silly addNameRange     '0.0.7',
+116 silly addNameRange     '0.0.8',
+116 silly addNameRange     '0.0.9',
+116 silly addNameRange     '0.1.0',
+116 silly addNameRange     '0.1.1',
+116 silly addNameRange     '0.1.3',
+116 silly addNameRange     '0.1.4',
+116 silly addNameRange     '0.1.5',
+116 silly addNameRange     '0.1.6',
+116 silly addNameRange     '0.1.7',
+116 silly addNameRange     '0.1.8',
+116 silly addNameRange     '0.1.9',
+116 silly addNameRange     '0.2.0',
+116 silly addNameRange     '0.2.1',
+116 silly addNameRange     '0.2.2',
+116 silly addNameRange     '0.2.3',
+116 silly addNameRange     '0.2.4',
+116 silly addNameRange     '0.2.5',
+116 silly addNameRange     '0.2.6',
+116 silly addNameRange     '0.2.7',
+116 silly addNameRange     '0.2.8',
+116 silly addNameRange     '0.2.9',
+116 silly addNameRange     '0.2.10',
+116 silly addNameRange     '0.2.11',
+116 silly addNameRange     '0.2.12',
+116 silly addNameRange     '0.2.13',
+116 silly addNameRange     '0.2.14',
+116 silly addNameRange     '0.2.15',
+116 silly addNameRange     '0.2.16',
+116 silly addNameRange     '0.2.17',
+116 silly addNameRange     '0.2.18',
+116 silly addNameRange     '0.2.19',
+116 silly addNameRange     '0.2.20',
+116 silly addNameRange     '0.2.21',
+116 silly addNameRange     '0.3.0',
+116 silly addNameRange     '0.3.1',
+116 silly addNameRange     '0.3.2',
+116 silly addNameRange     '0.4.0',
+116 silly addNameRange     '0.4.1',
+116 silly addNameRange     '0.4.2',
+116 silly addNameRange     '0.4.3',
+116 silly addNameRange     '0.4.4',
+116 silly addNameRange     '0.4.5',
+116 silly addNameRange     '0.4.6',
+116 silly addNameRange     '0.4.7',
+116 silly addNameRange     '0.4.8',
+116 silly addNameRange     '0.2.22',
+116 silly addNameRange     '0.4.10',
+116 silly addNameRange     '0.4.12',
+116 silly addNameRange     '0.4.13',
+116 silly addNameRange     '0.4.14',
+116 silly addNameRange     '0.4.15',
+116 silly addNameRange     '0.4.16',
+116 silly addNameRange     '0.4.17',
+116 silly addNameRange     '0.4.18',
+116 silly addNameRange     '0.4.19',
+116 silly addNameRange     '0.4.20',
+116 silly addNameRange     '0.4.21',
+116 silly addNameRange     '0.4.22',
+116 silly addNameRange     '0.4.23',
+116 silly addNameRange     '0.5.0',
+116 silly addNameRange     '0.5.1',
+116 silly addNameRange     '0.5.2',
+116 silly addNameRange     '0.5.3',
+116 silly addNameRange     '0.5.4',
+116 silly addNameRange     '0.5.5',
+116 silly addNameRange     '0.5.6',
+116 silly addNameRange     '0.5.7',
+116 silly addNameRange     '1.0.0',
+116 silly addNameRange     '1.0.1',
+116 silly addNameRange     '1.0.2',
+116 silly addNameRange     '1.0.3',
+116 silly addNameRange     '1.0.4',
+116 silly addNameRange     '2.0.0',
+116 silly addNameRange     '1.0.5',
+116 silly addNameRange     '2.0.1',
+116 silly addNameRange     '2.0.2',
+116 silly addNameRange     '1.0.6',
+116 silly addNameRange     '2.0.3',
+116 silly addNameRange     '2.0.4',
+116 silly addNameRange     '2.0.5',
+116 silly addNameRange     '2.0.6',
+116 silly addNameRange     '2.0.7',
+116 silly addNameRange     '1.0.7',
+116 silly addNameRange     '2.0.8',
+116 silly addNameRange     '1.0.8',
+116 silly addNameRange     '1.0.9',
+116 silly addNameRange     '3.0.0',
+116 silly addNameRange     '3.0.1',
+116 silly addNameRange     '3.0.2',
+116 silly addNameRange     '1.1.0',
+116 silly addNameRange     '4.0.0-rc1',
+116 silly addNameRange     '4.0.0-rc2',
+116 silly addNameRange     '4.0.0-rc3',
+116 silly addNameRange     '4.0.0-rc4',
+116 silly addNameRange     '4.0.0-rc5',
+116 silly addNameRange     '4.0.0-rc6',
+116 silly addNameRange     '4.0.0-rc7',
+116 silly addNameRange     '4.0.0-rc8',
+116 silly addNameRange     '4.0.0',
+116 silly addNameRange     '4.0.1',
+116 silly addNameRange     '4.0.2',
+116 silly addNameRange     '1.1.1',
+116 silly addNameRange     '1.1.2',
+116 silly addNameRange     '1.1.3',
+116 silly addNameRange     '4.0.3',
+116 silly addNameRange     '1.1.4',
+116 silly addNameRange     '4.0.4' ] ]
+117 silly addNamed bson@1.1.4
+118 verbose addNamed "1.1.4" is a plain semver version for bson
+119 verbose get https://registry.npmjs.org/mongodb not expired, no request
+120 verbose get https://registry.npmjs.org/mpath not expired, no request
+121 verbose get https://registry.npmjs.org/ms not expired, no request
+122 silly cache afterAdd bson@1.1.4
+123 verbose afterAdd /home/khj/.npm/bson/1.1.4/package/package.json not in flight; writing
+124 silly cache afterAdd mongodb@3.5.7
+125 verbose afterAdd /home/khj/.npm/mongodb/3.5.7/package/package.json not in flight; writing
+126 silly cache afterAdd mpath@0.7.0
+127 verbose afterAdd /home/khj/.npm/mpath/0.7.0/package/package.json not in flight; writing
+128 silly cache afterAdd ms@2.1.2
+129 verbose afterAdd /home/khj/.npm/ms/2.1.2/package/package.json not in flight; writing
+130 verbose afterAdd /home/khj/.npm/mpath/0.7.0/package/package.json written
+131 verbose afterAdd /home/khj/.npm/ms/2.1.2/package/package.json written
+132 verbose afterAdd /home/khj/.npm/bson/1.1.4/package/package.json written
+133 verbose afterAdd /home/khj/.npm/mongodb/3.5.7/package/package.json written
+134 silly loadAllDepsIntoIdealTree Finishing
+135 silly idealTree:prePrune d3.js@1.0.0
+135 silly idealTree:prePrune ├── accepts@1.3.7
+135 silly idealTree:prePrune ├── array-flatten@1.1.1
+135 silly idealTree:prePrune ├── bl@2.2.0
+135 silly idealTree:prePrune ├── bluebird@3.5.1
+135 silly idealTree:prePrune ├── body-parser@1.19.0
+135 silly idealTree:prePrune ├── bson@1.1.3
+135 silly idealTree:prePrune ├── bytes@3.1.0
+135 silly idealTree:prePrune ├── content-disposition@0.5.3
+135 silly idealTree:prePrune ├── content-type@1.0.4
+135 silly idealTree:prePrune ├── cookie-signature@1.0.6
+135 silly idealTree:prePrune ├── cookie@0.4.0
+135 silly idealTree:prePrune ├── core-util-is@1.0.2
+135 silly idealTree:prePrune ├── d3-array@2.4.0
+135 silly idealTree:prePrune ├── d3-color@1.4.1
+135 silly idealTree:prePrune ├── d3-format@1.4.4
+135 silly idealTree:prePrune ├── d3-interpolate@1.4.0
+135 silly idealTree:prePrune ├── d3-scale@3.2.1
+135 silly idealTree:prePrune ├── d3-time-format@2.2.3
+135 silly idealTree:prePrune ├── d3-time@1.1.0
+135 silly idealTree:prePrune ├── debug@2.6.9
+135 silly idealTree:prePrune ├── denque@1.4.1
+135 silly idealTree:prePrune ├── depd@1.1.2
+135 silly idealTree:prePrune ├── destroy@1.0.4
+135 silly idealTree:prePrune ├── dotenv@8.2.0
+135 silly idealTree:prePrune ├── ee-first@1.1.1
+135 silly idealTree:prePrune ├── encodeurl@1.0.2
+135 silly idealTree:prePrune ├── escape-html@1.0.3
+135 silly idealTree:prePrune ├── etag@1.8.1
+135 silly idealTree:prePrune ├── express.js@1.0.0
+135 silly idealTree:prePrune ├── express@4.17.1
+135 silly idealTree:prePrune ├── finalhandler@1.1.2
+135 silly idealTree:prePrune ├── forwarded@0.1.2
+135 silly idealTree:prePrune ├── fresh@0.5.2
+135 silly idealTree:prePrune ├── http-errors@1.7.2
+135 silly idealTree:prePrune ├── iconv-lite@0.4.24
+135 silly idealTree:prePrune ├── inherits@2.0.3
+135 silly idealTree:prePrune ├── ipaddr.js@1.9.1
+135 silly idealTree:prePrune ├── isarray@1.0.0
+135 silly idealTree:prePrune ├── kareem@2.3.1
+135 silly idealTree:prePrune ├── media-typer@0.3.0
+135 silly idealTree:prePrune ├── memory-pager@1.5.0
+135 silly idealTree:prePrune ├── merge-descriptors@1.0.1
+135 silly idealTree:prePrune ├── methods@1.1.2
+135 silly idealTree:prePrune ├── mime-db@1.43.0
+135 silly idealTree:prePrune ├── mime-types@2.1.26
+135 silly idealTree:prePrune ├── mime@1.6.0
+135 silly idealTree:prePrune ├── mongodb@3.5.3
+135 silly idealTree:prePrune ├── mongoose-legacy-pluralize@1.0.2
+135 silly idealTree:prePrune ├─┬ mongoose@5.9.13
+135 silly idealTree:prePrune │ ├── bson@1.1.4
+135 silly idealTree:prePrune │ ├── mongodb@3.5.7
+135 silly idealTree:prePrune │ ├── mpath@0.7.0
+135 silly idealTree:prePrune │ └── ms@2.1.2
+135 silly idealTree:prePrune ├── mpath@0.6.0
+135 silly idealTree:prePrune ├─┬ mquery@3.2.2
+135 silly idealTree:prePrune │ └── debug@3.1.0
+135 silly idealTree:prePrune ├── ms@2.0.0
+135 silly idealTree:prePrune ├── negotiator@0.6.2
+135 silly idealTree:prePrune ├── on-finished@2.3.0
+135 silly idealTree:prePrune ├── parseurl@1.3.3
+135 silly idealTree:prePrune ├── path-to-regexp@0.1.7
+135 silly idealTree:prePrune ├── process-nextick-args@2.0.1
+135 silly idealTree:prePrune ├── proxy-addr@2.0.6
+135 silly idealTree:prePrune ├── qs@6.7.0
+135 silly idealTree:prePrune ├── range-parser@1.2.1
+135 silly idealTree:prePrune ├── raw-body@2.4.0
+135 silly idealTree:prePrune ├── readable-stream@2.3.7
+135 silly idealTree:prePrune ├── regexp-clone@1.0.0
+135 silly idealTree:prePrune ├── require_optional@1.0.1
+135 silly idealTree:prePrune ├── resolve-from@2.0.0
+135 silly idealTree:prePrune ├── safe-buffer@5.1.2
+135 silly idealTree:prePrune ├── safer-buffer@2.1.2
+135 silly idealTree:prePrune ├── saslprep@1.0.3
+135 silly idealTree:prePrune ├── semver@5.7.1
+135 silly idealTree:prePrune ├─┬ send@0.17.1
+135 silly idealTree:prePrune │ └── ms@2.1.1
+135 silly idealTree:prePrune ├── serve-static@1.14.1
+135 silly idealTree:prePrune ├── setprototypeof@1.1.1
+135 silly idealTree:prePrune ├── sift@7.0.1
+135 silly idealTree:prePrune ├── sliced@1.0.1
+135 silly idealTree:prePrune ├── sparse-bitfield@3.0.3
+135 silly idealTree:prePrune ├── statuses@1.5.0
+135 silly idealTree:prePrune ├── string_decoder@1.1.1
+135 silly idealTree:prePrune ├── toidentifier@1.0.0
+135 silly idealTree:prePrune ├── type-is@1.6.18
+135 silly idealTree:prePrune ├── unpipe@1.0.0
+135 silly idealTree:prePrune ├── util-deprecate@1.0.2
+135 silly idealTree:prePrune ├── utils-merge@1.0.1
+135 silly idealTree:prePrune └── vary@1.1.2
+136 silly loadIdealTree Finishing
+137 silly currentTree d3.js@1.0.0
+137 silly currentTree ├── accepts@1.3.7
+137 silly currentTree ├── array-flatten@1.1.1
+137 silly currentTree ├── bl@2.2.0
+137 silly currentTree ├── bluebird@3.5.1
+137 silly currentTree ├── body-parser@1.19.0
+137 silly currentTree ├── bson@1.1.3
+137 silly currentTree ├── bytes@3.1.0
+137 silly currentTree ├── content-disposition@0.5.3
+137 silly currentTree ├── content-type@1.0.4
+137 silly currentTree ├── cookie-signature@1.0.6
+137 silly currentTree ├── cookie@0.4.0
+137 silly currentTree ├── core-util-is@1.0.2
+137 silly currentTree ├── d3-array@2.4.0
+137 silly currentTree ├── d3-color@1.4.1
+137 silly currentTree ├── d3-format@1.4.4
+137 silly currentTree ├── d3-interpolate@1.4.0
+137 silly currentTree ├── d3-scale@3.2.1
+137 silly currentTree ├── d3-time-format@2.2.3
+137 silly currentTree ├── d3-time@1.1.0
+137 silly currentTree ├── debug@2.6.9
+137 silly currentTree ├── denque@1.4.1
+137 silly currentTree ├── depd@1.1.2
+137 silly currentTree ├── destroy@1.0.4
+137 silly currentTree ├── dotenv@8.2.0
+137 silly currentTree ├── ee-first@1.1.1
+137 silly currentTree ├── encodeurl@1.0.2
+137 silly currentTree ├── escape-html@1.0.3
+137 silly currentTree ├── etag@1.8.1
+137 silly currentTree ├── express.js@1.0.0
+137 silly currentTree ├── express@4.17.1
+137 silly currentTree ├── finalhandler@1.1.2
+137 silly currentTree ├── forwarded@0.1.2
+137 silly currentTree ├── fresh@0.5.2
+137 silly currentTree ├── http-errors@1.7.2
+137 silly currentTree ├── iconv-lite@0.4.24
+137 silly currentTree ├── inherits@2.0.3
+137 silly currentTree ├── ipaddr.js@1.9.1
+137 silly currentTree ├── isarray@1.0.0
+137 silly currentTree ├── kareem@2.3.1
+137 silly currentTree ├── media-typer@0.3.0
+137 silly currentTree ├── memory-pager@1.5.0
+137 silly currentTree ├── merge-descriptors@1.0.1
+137 silly currentTree ├── methods@1.1.2
+137 silly currentTree ├── mime-db@1.43.0
+137 silly currentTree ├── mime-types@2.1.26
+137 silly currentTree ├── mime@1.6.0
+137 silly currentTree ├── mongodb@3.5.3
+137 silly currentTree ├── mongoose-legacy-pluralize@1.0.2
+137 silly currentTree ├── mpath@0.6.0
+137 silly currentTree ├─┬ mquery@3.2.2
+137 silly currentTree │ └── debug@3.1.0
+137 silly currentTree ├── ms@2.0.0
+137 silly currentTree ├── negotiator@0.6.2
+137 silly currentTree ├── on-finished@2.3.0
+137 silly currentTree ├── parseurl@1.3.3
+137 silly currentTree ├── path-to-regexp@0.1.7
+137 silly currentTree ├── process-nextick-args@2.0.1
+137 silly currentTree ├── proxy-addr@2.0.6
+137 silly currentTree ├── qs@6.7.0
+137 silly currentTree ├── range-parser@1.2.1
+137 silly currentTree ├── raw-body@2.4.0
+137 silly currentTree ├── readable-stream@2.3.7
+137 silly currentTree ├── regexp-clone@1.0.0
+137 silly currentTree ├── require_optional@1.0.1
+137 silly currentTree ├── resolve-from@2.0.0
+137 silly currentTree ├── safe-buffer@5.1.2
+137 silly currentTree ├── safer-buffer@2.1.2
+137 silly currentTree ├── saslprep@1.0.3
+137 silly currentTree ├── semver@5.7.1
+137 silly currentTree ├─┬ send@0.17.1
+137 silly currentTree │ └── ms@2.1.1
+137 silly currentTree ├── serve-static@1.14.1
+137 silly currentTree ├── setprototypeof@1.1.1
+137 silly currentTree ├── sift@7.0.1
+137 silly currentTree ├── sliced@1.0.1
+137 silly currentTree ├── sparse-bitfield@3.0.3
+137 silly currentTree ├── statuses@1.5.0
+137 silly currentTree ├── string_decoder@1.1.1
+137 silly currentTree ├── toidentifier@1.0.0
+137 silly currentTree ├── type-is@1.6.18
+137 silly currentTree ├── unpipe@1.0.0
+137 silly currentTree ├── util-deprecate@1.0.2
+137 silly currentTree ├── utils-merge@1.0.1
+137 silly currentTree └── vary@1.1.2
+138 silly idealTree d3.js@1.0.0
+138 silly idealTree ├── accepts@1.3.7
+138 silly idealTree ├── array-flatten@1.1.1
+138 silly idealTree ├── bl@2.2.0
+138 silly idealTree ├── bluebird@3.5.1
+138 silly idealTree ├── body-parser@1.19.0
+138 silly idealTree ├── bson@1.1.3
+138 silly idealTree ├── bytes@3.1.0
+138 silly idealTree ├── content-disposition@0.5.3
+138 silly idealTree ├── content-type@1.0.4
+138 silly idealTree ├── cookie-signature@1.0.6
+138 silly idealTree ├── cookie@0.4.0
+138 silly idealTree ├── core-util-is@1.0.2
+138 silly idealTree ├── d3-array@2.4.0
+138 silly idealTree ├── d3-color@1.4.1
+138 silly idealTree ├── d3-format@1.4.4
+138 silly idealTree ├── d3-interpolate@1.4.0
+138 silly idealTree ├── d3-scale@3.2.1
+138 silly idealTree ├── d3-time-format@2.2.3
+138 silly idealTree ├── d3-time@1.1.0
+138 silly idealTree ├── debug@2.6.9
+138 silly idealTree ├── denque@1.4.1
+138 silly idealTree ├── depd@1.1.2
+138 silly idealTree ├── destroy@1.0.4
+138 silly idealTree ├── dotenv@8.2.0
+138 silly idealTree ├── ee-first@1.1.1
+138 silly idealTree ├── encodeurl@1.0.2
+138 silly idealTree ├── escape-html@1.0.3
+138 silly idealTree ├── etag@1.8.1
+138 silly idealTree ├── express.js@1.0.0
+138 silly idealTree ├── express@4.17.1
+138 silly idealTree ├── finalhandler@1.1.2
+138 silly idealTree ├── forwarded@0.1.2
+138 silly idealTree ├── fresh@0.5.2
+138 silly idealTree ├── http-errors@1.7.2
+138 silly idealTree ├── iconv-lite@0.4.24
+138 silly idealTree ├── inherits@2.0.3
+138 silly idealTree ├── ipaddr.js@1.9.1
+138 silly idealTree ├── isarray@1.0.0
+138 silly idealTree ├── kareem@2.3.1
+138 silly idealTree ├── media-typer@0.3.0
+138 silly idealTree ├── memory-pager@1.5.0
+138 silly idealTree ├── merge-descriptors@1.0.1
+138 silly idealTree ├── methods@1.1.2
+138 silly idealTree ├── mime-db@1.43.0
+138 silly idealTree ├── mime-types@2.1.26
+138 silly idealTree ├── mime@1.6.0
+138 silly idealTree ├── mongodb@3.5.3
+138 silly idealTree ├── mongoose-legacy-pluralize@1.0.2
+138 silly idealTree ├─┬ mongoose@5.9.13
+138 silly idealTree │ ├── bson@1.1.4
+138 silly idealTree │ ├── mongodb@3.5.7
+138 silly idealTree │ ├── mpath@0.7.0
+138 silly idealTree │ └── ms@2.1.2
+138 silly idealTree ├── mpath@0.6.0
+138 silly idealTree ├─┬ mquery@3.2.2
+138 silly idealTree │ └── debug@3.1.0
+138 silly idealTree ├── ms@2.0.0
+138 silly idealTree ├── negotiator@0.6.2
+138 silly idealTree ├── on-finished@2.3.0
+138 silly idealTree ├── parseurl@1.3.3
+138 silly idealTree ├── path-to-regexp@0.1.7
+138 silly idealTree ├── process-nextick-args@2.0.1
+138 silly idealTree ├── proxy-addr@2.0.6
+138 silly idealTree ├── qs@6.7.0
+138 silly idealTree ├── range-parser@1.2.1
+138 silly idealTree ├── raw-body@2.4.0
+138 silly idealTree ├── readable-stream@2.3.7
+138 silly idealTree ├── regexp-clone@1.0.0
+138 silly idealTree ├── require_optional@1.0.1
+138 silly idealTree ├── resolve-from@2.0.0
+138 silly idealTree ├── safe-buffer@5.1.2
+138 silly idealTree ├── safer-buffer@2.1.2
+138 silly idealTree ├── saslprep@1.0.3
+138 silly idealTree ├── semver@5.7.1
+138 silly idealTree ├─┬ send@0.17.1
+138 silly idealTree │ └── ms@2.1.1
+138 silly idealTree ├── serve-static@1.14.1
+138 silly idealTree ├── setprototypeof@1.1.1
+138 silly idealTree ├── sift@7.0.1
+138 silly idealTree ├── sliced@1.0.1
+138 silly idealTree ├── sparse-bitfield@3.0.3
+138 silly idealTree ├── statuses@1.5.0
+138 silly idealTree ├── string_decoder@1.1.1
+138 silly idealTree ├── toidentifier@1.0.0
+138 silly idealTree ├── type-is@1.6.18
+138 silly idealTree ├── unpipe@1.0.0
+138 silly idealTree ├── util-deprecate@1.0.2
+138 silly idealTree ├── utils-merge@1.0.1
+138 silly idealTree └── vary@1.1.2
+139 silly generateActionsToTake Starting
+140 silly install generateActionsToTake
+141 silly generateActionsToTake Finishing
+142 silly diffTrees action count 10
+143 silly diffTrees update body-parser@1.19.0
+144 silly diffTrees update express@4.17.1
+145 silly diffTrees add bson@1.1.4
+146 silly diffTrees add mongodb@3.5.7
+147 silly diffTrees add mpath@0.7.0
+148 silly diffTrees add ms@2.1.2
+149 silly diffTrees update d3-scale@3.2.1
+150 silly diffTrees update dotenv@8.2.0
+151 silly diffTrees update express.js@1.0.0
+152 silly diffTrees add mongoose@5.9.13
+153 silly decomposeActions action count 80
+154 silly decomposeActions fetch body-parser@1.19.0
+155 silly decomposeActions extract body-parser@1.19.0
+156 silly decomposeActions test body-parser@1.19.0
+157 silly decomposeActions preinstall body-parser@1.19.0
+158 silly decomposeActions build body-parser@1.19.0
+159 silly decomposeActions install body-parser@1.19.0
+160 silly decomposeActions postinstall body-parser@1.19.0
+161 silly decomposeActions finalize body-parser@1.19.0
+162 silly decomposeActions fetch express@4.17.1
+163 silly decomposeActions extract express@4.17.1
+164 silly decomposeActions test express@4.17.1
+165 silly decomposeActions preinstall express@4.17.1
+166 silly decomposeActions build express@4.17.1
+167 silly decomposeActions install express@4.17.1
+168 silly decomposeActions postinstall express@4.17.1
+169 silly decomposeActions finalize express@4.17.1
+170 silly decomposeActions fetch bson@1.1.4
+171 silly decomposeActions extract bson@1.1.4
+172 silly decomposeActions test bson@1.1.4
+173 silly decomposeActions preinstall bson@1.1.4
+174 silly decomposeActions build bson@1.1.4
+175 silly decomposeActions install bson@1.1.4
+176 silly decomposeActions postinstall bson@1.1.4
+177 silly decomposeActions finalize bson@1.1.4
+178 silly decomposeActions fetch mongodb@3.5.7
+179 silly decomposeActions extract mongodb@3.5.7
+180 silly decomposeActions test mongodb@3.5.7
+181 silly decomposeActions preinstall mongodb@3.5.7
+182 silly decomposeActions build mongodb@3.5.7
+183 silly decomposeActions install mongodb@3.5.7
+184 silly decomposeActions postinstall mongodb@3.5.7
+185 silly decomposeActions finalize mongodb@3.5.7
+186 silly decomposeActions fetch mpath@0.7.0
+187 silly decomposeActions extract mpath@0.7.0
+188 silly decomposeActions test mpath@0.7.0
+189 silly decomposeActions preinstall mpath@0.7.0
+190 silly decomposeActions build mpath@0.7.0
+191 silly decomposeActions install mpath@0.7.0
+192 silly decomposeActions postinstall mpath@0.7.0
+193 silly decomposeActions finalize mpath@0.7.0
+194 silly decomposeActions fetch ms@2.1.2
+195 silly decomposeActions extract ms@2.1.2
+196 silly decomposeActions test ms@2.1.2
+197 silly decomposeActions preinstall ms@2.1.2
+198 silly decomposeActions build ms@2.1.2
+199 silly decomposeActions install ms@2.1.2
+200 silly decomposeActions postinstall ms@2.1.2
+201 silly decomposeActions finalize ms@2.1.2
+202 silly decomposeActions fetch d3-scale@3.2.1
+203 silly decomposeActions extract d3-scale@3.2.1
+204 silly decomposeActions test d3-scale@3.2.1
+205 silly decomposeActions preinstall d3-scale@3.2.1
+206 silly decomposeActions build d3-scale@3.2.1
+207 silly decomposeActions install d3-scale@3.2.1
+208 silly decomposeActions postinstall d3-scale@3.2.1
+209 silly decomposeActions finalize d3-scale@3.2.1
+210 silly decomposeActions fetch dotenv@8.2.0
+211 silly decomposeActions extract dotenv@8.2.0
+212 silly decomposeActions test dotenv@8.2.0
+213 silly decomposeActions preinstall dotenv@8.2.0
+214 silly decomposeActions build dotenv@8.2.0
+215 silly decomposeActions install dotenv@8.2.0
+216 silly decomposeActions postinstall dotenv@8.2.0
+217 silly decomposeActions finalize dotenv@8.2.0
+218 silly decomposeActions fetch express.js@1.0.0
+219 silly decomposeActions extract express.js@1.0.0
+220 silly decomposeActions test express.js@1.0.0
+221 silly decomposeActions preinstall express.js@1.0.0
+222 silly decomposeActions build express.js@1.0.0
+223 silly decomposeActions install express.js@1.0.0
+224 silly decomposeActions postinstall express.js@1.0.0
+225 silly decomposeActions finalize express.js@1.0.0
+226 silly decomposeActions fetch mongoose@5.9.13
+227 silly decomposeActions extract mongoose@5.9.13
+228 silly decomposeActions test mongoose@5.9.13
+229 silly decomposeActions preinstall mongoose@5.9.13
+230 silly decomposeActions build mongoose@5.9.13
+231 silly decomposeActions install mongoose@5.9.13
+232 silly decomposeActions postinstall mongoose@5.9.13
+233 silly decomposeActions finalize mongoose@5.9.13
+234 silly executeActions Starting
+235 silly install executeActions
+236 silly doSerial global-install 0
+237 silly doParallel fetch 10
+238 verbose lock using /home/khj/.npm/_locks/staging-755eb99280223fe5.lock for /home/khj/d3.js/node_modules/.staging
+239 silly doParallel extract 10
+240 silly extract body-parser@1.19.0
+241 silly extract express@4.17.1
+242 silly extract bson@1.1.4
+243 silly extract mongodb@3.5.7
+244 silly extract mpath@0.7.0
+245 silly extract ms@2.1.2
+246 silly extract d3-scale@3.2.1
+247 silly extract dotenv@8.2.0
+248 silly extract express.js@1.0.0
+249 silly extract mongoose@5.9.13
+250 verbose unbuild node_modules/.staging/body-parser-62d7e897
+251 verbose unbuild node_modules/.staging/express-f0cc329d
+252 verbose unbuild node_modules/.staging/bson-2dcf7e83
+253 verbose unbuild node_modules/.staging/mongodb-ec7c22f9
+254 verbose unbuild node_modules/.staging/mpath-56457c36
+255 verbose unbuild node_modules/.staging/ms-73599cf2
+256 verbose unbuild node_modules/.staging/d3-scale-80d6d36f
+257 verbose unbuild node_modules/.staging/dotenv-fc6c280e
+258 verbose unbuild node_modules/.staging/express.js-96cc4910
+259 verbose unbuild node_modules/.staging/mongoose-3bc55c70
+260 silly gentlyRm /home/khj/d3.js/node_modules/.staging/body-parser-62d7e897 is being purged from base /home/khj/d3.js
+261 verbose gentlyRm don't care about contents; nuking /home/khj/d3.js/node_modules/.staging/body-parser-62d7e897
+262 silly gentlyRm /home/khj/d3.js/node_modules/.staging/express-f0cc329d is being purged from base /home/khj/d3.js
+263 verbose gentlyRm don't care about contents; nuking /home/khj/d3.js/node_modules/.staging/express-f0cc329d
+264 silly gentlyRm /home/khj/d3.js/node_modules/.staging/bson-2dcf7e83 is being purged from base /home/khj/d3.js
+265 verbose gentlyRm don't care about contents; nuking /home/khj/d3.js/node_modules/.staging/bson-2dcf7e83
+266 silly gentlyRm /home/khj/d3.js/node_modules/.staging/mongodb-ec7c22f9 is being purged from base /home/khj/d3.js
+267 verbose gentlyRm don't care about contents; nuking /home/khj/d3.js/node_modules/.staging/mongodb-ec7c22f9
+268 silly gentlyRm /home/khj/d3.js/node_modules/.staging/mpath-56457c36 is being purged from base /home/khj/d3.js
+269 verbose gentlyRm don't care about contents; nuking /home/khj/d3.js/node_modules/.staging/mpath-56457c36
+270 silly gentlyRm /home/khj/d3.js/node_modules/.staging/ms-73599cf2 is being purged from base /home/khj/d3.js
+271 verbose gentlyRm don't care about contents; nuking /home/khj/d3.js/node_modules/.staging/ms-73599cf2
+272 silly gentlyRm /home/khj/d3.js/node_modules/.staging/d3-scale-80d6d36f is being purged from base /home/khj/d3.js
+273 verbose gentlyRm don't care about contents; nuking /home/khj/d3.js/node_modules/.staging/d3-scale-80d6d36f
+274 silly gentlyRm /home/khj/d3.js/node_modules/.staging/dotenv-fc6c280e is being purged from base /home/khj/d3.js
+275 verbose gentlyRm don't care about contents; nuking /home/khj/d3.js/node_modules/.staging/dotenv-fc6c280e
+276 silly gentlyRm /home/khj/d3.js/node_modules/.staging/express.js-96cc4910 is being purged from base /home/khj/d3.js
+277 verbose gentlyRm don't care about contents; nuking /home/khj/d3.js/node_modules/.staging/express.js-96cc4910
+278 silly gentlyRm /home/khj/d3.js/node_modules/.staging/mongoose-3bc55c70 is being purged from base /home/khj/d3.js
+279 verbose gentlyRm don't care about contents; nuking /home/khj/d3.js/node_modules/.staging/mongoose-3bc55c70
+280 verbose tar unpack /home/khj/.npm/body-parser/1.19.0/package.tgz
+281 verbose tar unpacking to /home/khj/d3.js/node_modules/.staging/body-parser-62d7e897
+282 silly gentlyRm /home/khj/d3.js/node_modules/.staging/body-parser-62d7e897 is being purged
+283 verbose gentlyRm don't care about contents; nuking /home/khj/d3.js/node_modules/.staging/body-parser-62d7e897
+284 verbose tar unpack /home/khj/.npm/express/4.17.1/package.tgz
+285 verbose tar unpacking to /home/khj/d3.js/node_modules/.staging/express-f0cc329d
+286 silly gentlyRm /home/khj/d3.js/node_modules/.staging/express-f0cc329d is being purged
+287 verbose gentlyRm don't care about contents; nuking /home/khj/d3.js/node_modules/.staging/express-f0cc329d
+288 verbose tar unpack /home/khj/.npm/bson/1.1.4/package.tgz
+289 verbose tar unpacking to /home/khj/d3.js/node_modules/.staging/bson-2dcf7e83
+290 silly gentlyRm /home/khj/d3.js/node_modules/.staging/bson-2dcf7e83 is being purged
+291 verbose gentlyRm don't care about contents; nuking /home/khj/d3.js/node_modules/.staging/bson-2dcf7e83
+292 verbose tar unpack /home/khj/.npm/mongodb/3.5.7/package.tgz
+293 verbose tar unpacking to /home/khj/d3.js/node_modules/.staging/mongodb-ec7c22f9
+294 silly gentlyRm /home/khj/d3.js/node_modules/.staging/mongodb-ec7c22f9 is being purged
+295 verbose gentlyRm don't care about contents; nuking /home/khj/d3.js/node_modules/.staging/mongodb-ec7c22f9
+296 verbose tar unpack /home/khj/.npm/mpath/0.7.0/package.tgz
+297 verbose tar unpacking to /home/khj/d3.js/node_modules/.staging/mpath-56457c36
+298 silly gentlyRm /home/khj/d3.js/node_modules/.staging/mpath-56457c36 is being purged
+299 verbose gentlyRm don't care about contents; nuking /home/khj/d3.js/node_modules/.staging/mpath-56457c36
+300 verbose tar unpack /home/khj/.npm/ms/2.1.2/package.tgz
+301 verbose tar unpacking to /home/khj/d3.js/node_modules/.staging/ms-73599cf2
+302 silly gentlyRm /home/khj/d3.js/node_modules/.staging/ms-73599cf2 is being purged
+303 verbose gentlyRm don't care about contents; nuking /home/khj/d3.js/node_modules/.staging/ms-73599cf2
+304 verbose tar unpack /home/khj/.npm/d3-scale/3.2.1/package.tgz
+305 verbose tar unpacking to /home/khj/d3.js/node_modules/.staging/d3-scale-80d6d36f
+306 silly gentlyRm /home/khj/d3.js/node_modules/.staging/d3-scale-80d6d36f is being purged
+307 verbose gentlyRm don't care about contents; nuking /home/khj/d3.js/node_modules/.staging/d3-scale-80d6d36f
+308 verbose tar unpack /home/khj/.npm/dotenv/8.2.0/package.tgz
+309 verbose tar unpacking to /home/khj/d3.js/node_modules/.staging/dotenv-fc6c280e
+310 silly gentlyRm /home/khj/d3.js/node_modules/.staging/dotenv-fc6c280e is being purged
+311 verbose gentlyRm don't care about contents; nuking /home/khj/d3.js/node_modules/.staging/dotenv-fc6c280e
+312 verbose tar unpack /home/khj/.npm/express.js/1.0.0/package.tgz
+313 verbose tar unpacking to /home/khj/d3.js/node_modules/.staging/express.js-96cc4910
+314 silly gentlyRm /home/khj/d3.js/node_modules/.staging/express.js-96cc4910 is being purged
+315 verbose gentlyRm don't care about contents; nuking /home/khj/d3.js/node_modules/.staging/express.js-96cc4910
+316 verbose tar unpack /home/khj/.npm/mongoose/5.9.13/package.tgz
+317 verbose tar unpacking to /home/khj/d3.js/node_modules/.staging/mongoose-3bc55c70
+318 silly gentlyRm /home/khj/d3.js/node_modules/.staging/mongoose-3bc55c70 is being purged
+319 verbose gentlyRm don't care about contents; nuking /home/khj/d3.js/node_modules/.staging/mongoose-3bc55c70
+320 silly gunzTarPerm modes [ '755', '644' ]
+321 silly gunzTarPerm modes [ '755', '644' ]
+322 silly gunzTarPerm modes [ '755', '644' ]
+323 silly gunzTarPerm modes [ '755', '644' ]
+324 silly gunzTarPerm modes [ '755', '644' ]
+325 silly gunzTarPerm modes [ '755', '644' ]
+326 silly gunzTarPerm modes [ '755', '644' ]
+327 silly gunzTarPerm modes [ '755', '644' ]
+328 silly gunzTarPerm modes [ '755', '644' ]
+329 silly gunzTarPerm modes [ '755', '644' ]
+330 silly gunzTarPerm extractEntry package.json
+331 silly gunzTarPerm extractEntry package.json
+332 silly gunzTarPerm extractEntry package.json
+333 silly gunzTarPerm extractEntry lib/async/.eslintrc
+334 silly gunzTarPerm modified mode [ 'lib/async/.eslintrc', 436, 420 ]
+335 silly gunzTarPerm extractEntry LICENSE
+336 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+337 silly gunzTarPerm extractEntry package.json
+338 silly gunzTarPerm extractEntry package.json
+339 silly gunzTarPerm extractEntry LICENSE
+340 silly gunzTarPerm extractEntry package.json
+341 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+342 silly gunzTarPerm extractEntry lib/helpers/schema/addAutoId.js
+343 silly gunzTarPerm modified mode [ 'lib/helpers/schema/addAutoId.js', 436, 420 ]
+344 silly gunzTarPerm extractEntry HISTORY.md
+345 silly gunzTarPerm extractEntry index.js
+346 silly gunzTarPerm extractEntry LICENSE
+347 silly gunzTarPerm extractEntry README.md
+348 silly gunzTarPerm extractEntry lib/read.js
+349 silly gunzTarPerm extractEntry lib/types/json.js
+350 silly gunzTarPerm extractEntry lib/types/raw.js
+351 silly gunzTarPerm extractEntry lib/types/text.js
+352 silly gunzTarPerm extractEntry lib/types/urlencoded.js
+353 silly gunzTarPerm extractEntry History.md
+354 silly gunzTarPerm extractEntry index.js
+355 silly gunzTarPerm extractEntry bower.json
+356 silly gunzTarPerm extractEntry HISTORY.md
+357 silly gunzTarPerm extractEntry Makefile
+358 silly gunzTarPerm modified mode [ 'Makefile', 436, 420 ]
+359 silly gunzTarPerm extractEntry bench.js
+360 silly gunzTarPerm modified mode [ 'bench.js', 436, 420 ]
+361 silly gunzTarPerm extractEntry index.js
+362 silly gunzTarPerm extractEntry license.md
+363 silly gunzTarPerm extractEntry LICENSE
+364 silly gunzTarPerm extractEntry README.md
+365 silly gunzTarPerm extractEntry lib/cli-options.js
+366 silly gunzTarPerm extractEntry config.js
+367 silly gunzTarPerm extractEntry express.js
+368 silly gunzTarPerm modified mode [ 'express.js', 438, 420 ]
+369 silly gunzTarPerm extractEntry server.js
+370 silly gunzTarPerm modified mode [ 'server.js', 438, 420 ]
+371 silly gunzTarPerm extractEntry lib/operations/add_user.js
+372 silly gunzTarPerm extractEntry lib/operations/admin_ops.js
+373 silly gunzTarPerm modified mode [ 'lib/operations/admin_ops.js', 436, 420 ]
+374 silly gunzTarPerm extractEntry lib/aggregate.js
+375 silly gunzTarPerm modified mode [ 'lib/aggregate.js', 436, 420 ]
+376 silly gunzTarPerm extractEntry lib/cursor/AggregationCursor.js
+377 silly gunzTarPerm modified mode [ 'lib/cursor/AggregationCursor.js', 436, 420 ]
+378 silly gunzTarPerm extractEntry lib/env-options.js
+379 silly gunzTarPerm extractEntry lib/main.js
+380 silly gunzTarPerm extractEntry test.js
+381 silly gunzTarPerm modified mode [ 'test.js', 438, 420 ]
+382 silly gunzTarPerm extractEntry LICENSE
+383 silly gunzTarPerm extractEntry Readme.md
+384 silly gunzTarPerm extractEntry lib/application.js
+385 silly gunzTarPerm extractEntry index.js
+386 silly gunzTarPerm extractEntry LICENSE.md
+387 silly gunzTarPerm extractEntry index.js
+388 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+389 silly gunzTarPerm extractEntry lib/index.js
+390 silly gunzTarPerm modified mode [ 'lib/index.js', 436, 420 ]
+391 silly gunzTarPerm extractEntry readme.md
+392 silly gunzTarPerm extractEntry dist/d3-scale.js
+393 silly gunzTarPerm extractEntry lib/express.js
+394 silly gunzTarPerm extractEntry lib/admin.js
+395 silly gunzTarPerm modified mode [ 'lib/admin.js', 436, 420 ]
+396 silly gunzTarPerm extractEntry lib/operations/aggregate.js
+397 silly gunzTarPerm modified mode [ 'lib/operations/aggregate.js', 436, 420 ]
+398 silly gunzTarPerm extractEntry lib/middleware/init.js
+399 silly gunzTarPerm extractEntry lib/middleware/query.js
+400 silly gunzTarPerm extractEntry lib/request.js
+401 silly gunzTarPerm extractEntry README.md
+402 silly gunzTarPerm extractEntry test/index.js
+403 silly gunzTarPerm modified mode [ 'test/index.js', 436, 420 ]
+404 silly gunzTarPerm extractEntry lib/helpers/topology/allServersUnknown.js
+405 silly gunzTarPerm modified mode [ 'lib/helpers/topology/allServersUnknown.js', 436, 420 ]
+406 silly gunzTarPerm extractEntry lib/helpers/query/applyGlobalMaxTimeMS.js
+407 silly gunzTarPerm modified mode [ 'lib/helpers/query/applyGlobalMaxTimeMS.js', 436, 420 ]
+408 silly gunzTarPerm extractEntry lib/helpers/model/applyHooks.js
+409 silly gunzTarPerm modified mode [ 'lib/helpers/model/applyHooks.js', 436, 420 ]
+410 silly gunzTarPerm extractEntry dist/d3-scale.min.js
+411 silly gunzTarPerm extractEntry src/band.js
+412 silly gunzTarPerm extractEntry src/colors.js
+413 silly gunzTarPerm extractEntry package.json
+414 silly gunzTarPerm extractEntry types/tsconfig.json
+415 silly gunzTarPerm extractEntry lib/helpers/model/applyMethods.js
+416 silly gunzTarPerm modified mode [ 'lib/helpers/model/applyMethods.js', 436, 420 ]
+417 silly gunzTarPerm extractEntry src/constant.js
+418 silly gunzTarPerm extractEntry lib/response.js
+419 silly gunzTarPerm extractEntry src/continuous.js
+420 silly gunzTarPerm extractEntry lib/aggregation_cursor.js
+421 silly gunzTarPerm modified mode [ 'lib/aggregation_cursor.js', 436, 420 ]
+422 silly gunzTarPerm extractEntry lib/apm.js
+423 silly gunzTarPerm extractEntry src/diverging.js
+424 silly gunzTarPerm extractEntry browser_build/bson.js
+425 silly gunzTarPerm extractEntry package.json
+426 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+427 silly gunzTarPerm extractEntry bench.log
+428 silly gunzTarPerm modified mode [ 'bench.log', 436, 420 ]
+429 silly gunzTarPerm extractEntry src/identity.js
+430 silly gunzTarPerm extractEntry types/tslint.json
+431 silly gunzTarPerm extractEntry CHANGELOG.md
+432 silly gunzTarPerm extractEntry lib/helpers/schema/applyPlugins.js
+433 silly gunzTarPerm modified mode [ 'lib/helpers/schema/applyPlugins.js', 436, 420 ]
+434 silly gunzTarPerm extractEntry lib/helpers/query/applyQueryMiddleware.js
+435 silly gunzTarPerm modified mode [ 'lib/helpers/query/applyQueryMiddleware.js', 436, 420 ]
+436 silly gunzTarPerm extractEntry src/index.js
+437 silly gunzTarPerm extractEntry lib/router/index.js
+438 silly gunzTarPerm extractEntry lib/router/layer.js
+439 silly gunzTarPerm extractEntry lib/core/connection/apm.js
+440 silly gunzTarPerm modified mode [ 'lib/core/connection/apm.js', 436, 420 ]
+441 silly gunzTarPerm extractEntry lib/async/async_iterator.js
+442 silly gunzTarPerm extractEntry History.md
+443 silly gunzTarPerm modified mode [ 'History.md', 436, 420 ]
+444 silly gunzTarPerm extractEntry README.md
+445 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+446 silly gunzTarPerm extractEntry README.md
+447 silly gunzTarPerm extractEntry browser_build/package.json
+448 silly gunzTarPerm extractEntry src/init.js
+449 silly gunzTarPerm extractEntry src/linear.js
+450 silly gunzTarPerm extractEntry src/log.js
+451 silly gunzTarPerm extractEntry lib/helpers/model/applyStaticHooks.js
+452 silly gunzTarPerm modified mode [ 'lib/helpers/model/applyStaticHooks.js', 436, 420 ]
+453 silly gunzTarPerm extractEntry lib/helpers/model/applyStatics.js
+454 silly gunzTarPerm modified mode [ 'lib/helpers/model/applyStatics.js', 436, 420 ]
+455 silly gunzTarPerm extractEntry lib/router/route.js
+456 silly gunzTarPerm extractEntry lib/utils.js
+457 silly gunzTarPerm extractEntry src/nice.js
+458 silly gentlyRm /home/khj/d3.js/node_modules/.staging/express.js-96cc4910/node_modules is being purged
+459 verbose gentlyRm don't care about contents; nuking /home/khj/d3.js/node_modules/.staging/express.js-96cc4910/node_modules
+460 silly gunzTarPerm extractEntry lib/core/auth/auth_provider.js
+461 silly gunzTarPerm modified mode [ 'lib/core/auth/auth_provider.js', 436, 420 ]
+462 silly gunzTarPerm extractEntry lib/operations/bulk_write.js
+463 silly gunzTarPerm modified mode [ 'lib/operations/bulk_write.js', 436, 420 ]
+464 silly gunzTarPerm extractEntry bench.out
+465 silly gunzTarPerm modified mode [ 'bench.out', 436, 420 ]
+466 silly gunzTarPerm extractEntry .travis.yml
+467 silly gunzTarPerm modified mode [ '.travis.yml', 436, 420 ]
+468 silly gunzTarPerm extractEntry types/index.d.ts
+469 silly gunzTarPerm extractEntry types/test.ts
+470 silly gunzTarPerm extractEntry lib/bson/binary.js
+471 silly gunzTarPerm extractEntry lib/bson/bson.js
+472 silly gunzTarPerm extractEntry lib/helpers/update/applyTimestampsToChildren.js
+473 silly gunzTarPerm modified mode [ 'lib/helpers/update/applyTimestampsToChildren.js', 436, 420 ]
+474 silly gunzTarPerm extractEntry lib/helpers/update/applyTimestampsToUpdate.js
+475 silly gunzTarPerm modified mode [ 'lib/helpers/update/applyTimestampsToUpdate.js', 436, 420 ]
+476 silly gunzTarPerm extractEntry lib/view.js
+477 silly gentlyRm /home/khj/d3.js/node_modules/.staging/ms-73599cf2/node_modules is being purged
+478 verbose gentlyRm don't care about contents; nuking /home/khj/d3.js/node_modules/.staging/ms-73599cf2/node_modules
+479 silly gunzTarPerm extractEntry src/number.js
+480 silly gunzTarPerm extractEntry src/ordinal.js
+481 silly gunzTarPerm extractEntry lib/change_stream.js
+482 silly gunzTarPerm modified mode [ 'lib/change_stream.js', 436, 420 ]
+483 silly gunzTarPerm extractEntry lib/gridfs/chunk.js
+484 silly gunzTarPerm modified mode [ 'lib/gridfs/chunk.js', 436, 420 ]
+485 silly gunzTarPerm extractEntry lib/bson/code.js
+486 silly gunzTarPerm extractEntry lib/bson/db_ref.js
+487 silly gunzTarPerm extractEntry lib/bson/decimal128.js
+488 silly gunzTarPerm extractEntry lib/helpers/schema/applyWriteConcern.js
+489 silly gunzTarPerm modified mode [ 'lib/helpers/schema/applyWriteConcern.js', 436, 420 ]
+490 silly gunzTarPerm extractEntry lib/schema/array.js
+491 silly gunzTarPerm modified mode [ 'lib/schema/array.js', 436, 420 ]
+492 silly gunzTarPerm extractEntry lib/bson/double.js
+493 silly gunzTarPerm extractEntry src/pow.js
+494 silly gunzTarPerm extractEntry src/quantile.js
+495 silly gunzTarPerm extractEntry lib/bson/float_parser.js
+496 silly gunzTarPerm extractEntry lib/operations/collection_ops.js
+497 silly gunzTarPerm modified mode [ 'lib/operations/collection_ops.js', 436, 420 ]
+498 silly gunzTarPerm extractEntry lib/collection.js
+499 silly gunzTarPerm modified mode [ 'lib/collection.js', 436, 420 ]
+500 silly gunzTarPerm extractEntry lib/bson/int_32.js
+501 silly gunzTarPerm extractEntry lib/bson/long.js
+502 silly gunzTarPerm extractEntry lib/bson/map.js
+503 silly gunzTarPerm extractEntry lib/bson/max_key.js
+504 silly gunzTarPerm extractEntry lib/types/array.js
+505 silly gunzTarPerm modified mode [ 'lib/types/array.js', 436, 420 ]
+506 silly gunzTarPerm extractEntry lib/helpers/arrayDepth.js
+507 silly gunzTarPerm modified mode [ 'lib/helpers/arrayDepth.js', 436, 420 ]
+508 silly gunzTarPerm extractEntry lib/bson/min_key.js
+509 silly gunzTarPerm extractEntry src/quantize.js
+510 silly gunzTarPerm extractEntry src/radial.js
+511 silly gunzTarPerm extractEntry lib/operations/collections.js
+512 silly gunzTarPerm extractEntry lib/command_cursor.js
+513 silly gunzTarPerm modified mode [ 'lib/command_cursor.js', 436, 420 ]
+514 silly gunzTarPerm extractEntry lib/bson/objectid.js
+515 silly gunzTarPerm extractEntry lib/bson/parser/calculate_size.js
+516 silly gunzTarPerm extractEntry lib/bson/parser/deserializer.js
+517 silly gunzTarPerm extractEntry lib/helpers/populate/assignRawDocsToIdStructure.js
+518 silly gunzTarPerm modified mode [ 'lib/helpers/populate/assignRawDocsToIdStructure.js',
+518 silly gunzTarPerm   436,
+518 silly gunzTarPerm   420 ]
+519 silly gunzTarPerm extractEntry lib/helpers/populate/assignVals.js
+520 silly gunzTarPerm modified mode [ 'lib/helpers/populate/assignVals.js', 436, 420 ]
+521 silly gunzTarPerm extractEntry lib/bson/parser/serializer.js
+522 silly gunzTarPerm extractEntry src/sequential.js
+523 silly gunzTarPerm extractEntry src/sequentialQuantile.js
+524 silly gunzTarPerm extractEntry lib/bson/parser/utils.js
+525 silly gunzTarPerm extractEntry lib/bson/regexp.js
+526 silly gunzTarPerm extractEntry lib/bson/symbol.js
+527 silly gunzTarPerm extractEntry lib/core/connection/command_result.js
+528 silly gunzTarPerm modified mode [ 'lib/core/connection/command_result.js', 436, 420 ]
+529 silly gunzTarPerm extractEntry lib/operations/command_v2.js
+530 silly gunzTarPerm modified mode [ 'lib/operations/command_v2.js', 436, 420 ]
+531 silly gunzTarPerm extractEntry lib/bson/timestamp.js
+532 silly gunzTarPerm extractEntry src/symlog.js
+533 silly gunzTarPerm extractEntry src/threshold.js
+534 silly gunzTarPerm extractEntry tools/auth.js
+535 silly gunzTarPerm modified mode [ 'tools/auth.js', 436, 420 ]
+536 silly gunzTarPerm extractEntry lib/drivers/browser/binary.js
+537 silly gunzTarPerm modified mode [ 'lib/drivers/browser/binary.js', 436, 420 ]
+538 silly gunzTarPerm extractEntry lib/core/wireprotocol/command.js
+539 silly gunzTarPerm modified mode [ 'lib/core/wireprotocol/command.js', 436, 420 ]
+540 silly gunzTarPerm extractEntry lib/operations/command.js
+541 silly gunzTarPerm modified mode [ 'lib/operations/command.js', 436, 420 ]
+542 silly gunzTarPerm extractEntry src/tickFormat.js
+543 silly gunzTarPerm extractEntry src/time.js
+544 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/binary.js
+545 silly gunzTarPerm modified mode [ 'lib/drivers/node-mongodb-native/binary.js', 436, 420 ]
+546 silly gunzTarPerm extractEntry lib/schema/operators/bitwise.js
+547 silly gunzTarPerm modified mode [ 'lib/schema/operators/bitwise.js', 436, 420 ]
+548 silly gunzTarPerm extractEntry lib/core/connection/commands.js
+549 silly gunzTarPerm modified mode [ 'lib/core/connection/commands.js', 436, 420 ]
+550 silly gunzTarPerm extractEntry lib/operations/common_functions.js
+551 silly gunzTarPerm modified mode [ 'lib/operations/common_functions.js', 436, 420 ]
+552 silly gunzTarPerm extractEntry src/utcTime.js
+553 silly gunzTarPerm extractEntry lib/cast/boolean.js
+554 silly gunzTarPerm modified mode [ 'lib/cast/boolean.js', 436, 420 ]
+555 silly gunzTarPerm extractEntry lib/schema/boolean.js
+556 silly gunzTarPerm modified mode [ 'lib/schema/boolean.js', 436, 420 ]
+557 silly gentlyRm /home/khj/d3.js/node_modules/.staging/body-parser-62d7e897/node_modules is being purged
+558 verbose gentlyRm don't care about contents; nuking /home/khj/d3.js/node_modules/.staging/body-parser-62d7e897/node_modules
+559 silly gunzTarPerm extractEntry browser.js
+560 silly gunzTarPerm modified mode [ 'browser.js', 436, 420 ]
+561 silly gunzTarPerm extractEntry lib/browser.js
+562 silly gunzTarPerm modified mode [ 'lib/browser.js', 436, 420 ]
+563 silly gunzTarPerm extractEntry lib/bulk/common.js
+564 silly gunzTarPerm modified mode [ 'lib/bulk/common.js', 436, 420 ]
+565 silly gunzTarPerm extractEntry lib/core/sdam/common.js
+566 silly gunzTarPerm modified mode [ 'lib/core/sdam/common.js', 436, 420 ]
+567 silly gunzTarPerm extractEntry lib/core/wireprotocol/compression.js
+568 silly gunzTarPerm modified mode [ 'lib/core/wireprotocol/compression.js', 436, 420 ]
+569 silly gunzTarPerm extractEntry lib/core/connection/connect.js
+570 silly gunzTarPerm modified mode [ 'lib/core/connection/connect.js', 436, 420 ]
+571 silly gentlyRm /home/khj/d3.js/node_modules/.staging/dotenv-fc6c280e/node_modules is being purged
+572 verbose gentlyRm don't care about contents; nuking /home/khj/d3.js/node_modules/.staging/dotenv-fc6c280e/node_modules
+573 silly gunzTarPerm extractEntry lib/operations/connect.js
+574 silly gunzTarPerm modified mode [ 'lib/operations/connect.js', 436, 420 ]
+575 silly gunzTarPerm extractEntry lib/cmap/connection_pool.js
+576 silly gunzTarPerm modified mode [ 'lib/cmap/connection_pool.js', 436, 420 ]
+577 silly gunzTarPerm extractEntry dist/browser.umd.js
+578 silly gunzTarPerm modified mode [ 'dist/browser.umd.js', 436, 420 ]
+579 silly gentlyRm /home/khj/d3.js/node_modules/.staging/mpath-56457c36/node_modules is being purged
+580 verbose gentlyRm don't care about contents; nuking /home/khj/d3.js/node_modules/.staging/mpath-56457c36/node_modules
+581 silly gunzTarPerm extractEntry lib/cmap/connection.js
+582 silly gunzTarPerm modified mode [ 'lib/cmap/connection.js', 436, 420 ]
+583 silly gunzTarPerm extractEntry lib/core/connection/connection.js
+584 silly gunzTarPerm modified mode [ 'lib/core/connection/connection.js', 436, 420 ]
+585 silly gunzTarPerm extractEntry lib/constants.js
+586 silly gunzTarPerm extractEntry lib/core/wireprotocol/constants.js
+587 silly gunzTarPerm modified mode [ 'lib/core/wireprotocol/constants.js', 436, 420 ]
+588 silly gunzTarPerm extractEntry lib/operations/count_documents.js
+589 silly gunzTarPerm extractEntry lib/browserDocument.js
+590 silly gunzTarPerm modified mode [ 'lib/browserDocument.js', 436, 420 ]
+591 silly gunzTarPerm extractEntry lib/operations/count.js
+592 silly gunzTarPerm extractEntry lib/operations/create_collection.js
+593 silly gunzTarPerm modified mode [ 'lib/operations/create_collection.js', 436, 420 ]
+594 silly gunzTarPerm extractEntry lib/error/browserMissingSchema.js
+595 silly gunzTarPerm modified mode [ 'lib/error/browserMissingSchema.js', 436, 420 ]
+596 silly gunzTarPerm extractEntry lib/schema/buffer.js
+597 silly gunzTarPerm modified mode [ 'lib/schema/buffer.js', 436, 420 ]
+598 silly gunzTarPerm extractEntry lib/operations/create_index.js
+599 silly gunzTarPerm modified mode [ 'lib/operations/create_index.js', 436, 420 ]
+600 silly gunzTarPerm extractEntry lib/operations/create_indexes.js
+601 silly gunzTarPerm modified mode [ 'lib/operations/create_indexes.js', 436, 420 ]
+602 silly gunzTarPerm extractEntry lib/operations/cursor_ops.js
+603 silly gunzTarPerm modified mode [ 'lib/operations/cursor_ops.js', 436, 420 ]
+604 silly gunzTarPerm extractEntry lib/types/buffer.js
+605 silly gunzTarPerm modified mode [ 'lib/types/buffer.js', 436, 420 ]
+606 silly gunzTarPerm extractEntry build-browser.js
+607 silly gunzTarPerm modified mode [ 'build-browser.js', 436, 420 ]
+608 silly gunzTarPerm extractEntry lib/core/cursor.js
+609 silly gunzTarPerm modified mode [ 'lib/core/cursor.js', 436, 420 ]
+610 silly gunzTarPerm extractEntry lib/cursor.js
+611 silly gunzTarPerm modified mode [ 'lib/cursor.js', 436, 420 ]
+612 silly gunzTarPerm extractEntry lib/cast.js
+613 silly gunzTarPerm modified mode [ 'lib/cast.js', 436, 420 ]
+614 silly gunzTarPerm extractEntry lib/error/cast.js
+615 silly gunzTarPerm modified mode [ 'lib/error/cast.js', 436, 420 ]
+616 silly gunzTarPerm extractEntry lib/operations/db_ops.js
+617 silly gunzTarPerm modified mode [ 'lib/operations/db_ops.js', 436, 420 ]
+618 silly gunzTarPerm extractEntry lib/db.js
+619 silly gunzTarPerm modified mode [ 'lib/db.js', 436, 420 ]
+620 silly gentlyRm /home/khj/d3.js/node_modules/.staging/express-f0cc329d/node_modules is being purged
+621 verbose gentlyRm don't care about contents; nuking /home/khj/d3.js/node_modules/.staging/express-f0cc329d/node_modules
+622 silly gunzTarPerm extractEntry lib/helpers/update/castArrayFilters.js
+623 silly gunzTarPerm modified mode [ 'lib/helpers/update/castArrayFilters.js', 436, 420 ]
+624 silly gunzTarPerm extractEntry lib/helpers/model/castBulkWrite.js
+625 silly gunzTarPerm modified mode [ 'lib/helpers/model/castBulkWrite.js', 436, 420 ]
+626 silly gunzTarPerm extractEntry lib/core/auth/defaultAuthProviders.js
+627 silly gunzTarPerm modified mode [ 'lib/core/auth/defaultAuthProviders.js', 436, 420 ]
+628 silly gunzTarPerm extractEntry lib/operations/delete_many.js
+629 silly gunzTarPerm extractEntry lib/helpers/query/castFilterPath.js
+630 silly gunzTarPerm modified mode [ 'lib/helpers/query/castFilterPath.js', 436, 420 ]
+631 silly gunzTarPerm extractEntry lib/helpers/query/castUpdate.js
+632 silly gunzTarPerm modified mode [ 'lib/helpers/query/castUpdate.js', 436, 420 ]
+633 silly gunzTarPerm extractEntry lib/operations/delete_one.js
+634 silly gunzTarPerm extractEntry lib/operations/distinct.js
+635 silly gunzTarPerm modified mode [ 'lib/operations/distinct.js', 436, 420 ]
+636 silly gunzTarPerm extractEntry lib/cursor/ChangeStream.js
+637 silly gunzTarPerm modified mode [ 'lib/cursor/ChangeStream.js', 436, 420 ]
+638 silly gunzTarPerm extractEntry lib/helpers/discriminator/checkEmbeddedDiscriminatorKeyProjection.js
+639 silly gunzTarPerm modified mode [ 'lib/helpers/discriminator/checkEmbeddedDiscriminatorKeyProjection.js',
+639 silly gunzTarPerm   436,
+639 silly gunzTarPerm   420 ]
+640 silly gunzTarPerm extractEntry lib/gridfs-stream/download.js
+641 silly gunzTarPerm modified mode [ 'lib/gridfs-stream/download.js', 436, 420 ]
+642 silly gunzTarPerm extractEntry lib/operations/drop_index.js
+643 silly gunzTarPerm extractEntry lib/helpers/document/cleanModifiedSubpaths.js
+644 silly gunzTarPerm modified mode [ 'lib/helpers/document/cleanModifiedSubpaths.js', 436, 420 ]
+645 silly gunzTarPerm extractEntry lib/helpers/schema/cleanPositionalOperators.js
+646 silly gunzTarPerm modified mode [ 'lib/helpers/schema/cleanPositionalOperators.js', 436, 420 ]
+647 silly gunzTarPerm extractEntry lib/operations/drop_indexes.js
+648 silly gunzTarPerm extractEntry lib/operations/drop.js
+649 silly gunzTarPerm extractEntry lib/helpers/clone.js
+650 silly gunzTarPerm modified mode [ 'lib/helpers/clone.js', 436, 420 ]
+651 silly gunzTarPerm extractEntry lib/collection.js
+652 silly gunzTarPerm modified mode [ 'lib/collection.js', 436, 420 ]
+653 silly gunzTarPerm extractEntry lib/dynamic_loaders.js
+654 silly gunzTarPerm extractEntry lib/core/error.js
+655 silly gunzTarPerm modified mode [ 'lib/core/error.js', 436, 420 ]
+656 silly gunzTarPerm extractEntry lib/error.js
+657 silly gunzTarPerm modified mode [ 'lib/error.js', 436, 420 ]
+658 silly gunzTarPerm extractEntry lib/cmap/errors.js
+659 silly gunzTarPerm modified mode [ 'lib/cmap/errors.js', 436, 420 ]
+660 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/collection.js
+661 silly gunzTarPerm modified mode [ 'lib/drivers/node-mongodb-native/collection.js', 436, 420 ]
+662 silly gunzTarPerm extractEntry lib/helpers/common.js
+663 silly gunzTarPerm modified mode [ 'lib/helpers/common.js', 436, 420 ]
+664 silly gunzTarPerm extractEntry lib/operations/estimated_document_count.js
+665 silly gunzTarPerm extractEntry lib/cmap/events.js
+666 silly gunzTarPerm modified mode [ 'lib/cmap/events.js', 436, 420 ]
+667 silly gunzTarPerm extractEntry lib/core/sdam/events.js
+668 silly gunzTarPerm modified mode [ 'lib/core/sdam/events.js', 436, 420 ]
+669 silly gunzTarPerm extractEntry lib/operations/execute_db_admin_command.js
+670 silly gunzTarPerm modified mode [ 'lib/operations/execute_db_admin_command.js', 436, 420 ]
+671 silly gunzTarPerm extractEntry lib/helpers/document/compile.js
+672 silly gunzTarPerm modified mode [ 'lib/helpers/document/compile.js', 436, 420 ]
+673 silly gunzTarPerm extractEntry lib/helpers/query/completeMany.js
+674 silly gunzTarPerm modified mode [ 'lib/helpers/query/completeMany.js', 436, 420 ]
+675 silly gunzTarPerm extractEntry lib/operations/execute_operation.js
+676 silly gunzTarPerm modified mode [ 'lib/operations/execute_operation.js', 436, 420 ]
+677 silly gunzTarPerm extractEntry lib/connection.js
+678 silly gunzTarPerm modified mode [ 'lib/connection.js', 436, 420 ]
+679 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/connection.js
+680 silly gunzTarPerm modified mode [ 'lib/drivers/node-mongodb-native/connection.js', 436, 420 ]
+681 silly gunzTarPerm extractEntry lib/operations/find_and_modify.js
+682 silly gunzTarPerm modified mode [ 'lib/operations/find_and_modify.js', 436, 420 ]
+683 silly gunzTarPerm extractEntry lib/operations/find_one_and_delete.js
+684 silly gunzTarPerm extractEntry lib/connectionstate.js
+685 silly gunzTarPerm modified mode [ 'lib/connectionstate.js', 436, 420 ]
+686 silly gunzTarPerm extractEntry lib/types/core_array.js
+687 silly gunzTarPerm modified mode [ 'lib/types/core_array.js', 436, 420 ]
+688 silly gunzTarPerm extractEntry lib/operations/find_one_and_replace.js
+689 silly gunzTarPerm extractEntry lib/operations/find_one_and_update.js
+690 silly gunzTarPerm extractEntry lib/cast/date.js
+691 silly gunzTarPerm modified mode [ 'lib/cast/date.js', 436, 420 ]
+692 silly gunzTarPerm extractEntry lib/schema/date.js
+693 silly gunzTarPerm modified mode [ 'lib/schema/date.js', 436, 420 ]
+694 silly gunzTarPerm extractEntry lib/cast/decimal128.js
+695 silly gunzTarPerm modified mode [ 'lib/cast/decimal128.js', 436, 420 ]
+696 silly gunzTarPerm extractEntry lib/drivers/browser/decimal128.js
+697 silly gunzTarPerm modified mode [ 'lib/drivers/browser/decimal128.js', 436, 420 ]
+698 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/decimal128.js
+699 silly gunzTarPerm modified mode [ 'lib/drivers/node-mongodb-native/decimal128.js', 436, 420 ]
+700 silly gunzTarPerm extractEntry lib/operations/find_one.js
+701 silly gunzTarPerm extractEntry lib/operations/find.js
+702 silly gunzTarPerm modified mode [ 'lib/operations/find.js', 436, 420 ]
+703 silly gunzTarPerm extractEntry lib/schema/decimal128.js
+704 silly gunzTarPerm modified mode [ 'lib/schema/decimal128.js', 436, 420 ]
+705 silly gunzTarPerm extractEntry lib/types/decimal128.js
+706 silly gunzTarPerm modified mode [ 'lib/types/decimal128.js', 436, 420 ]
+707 silly gunzTarPerm extractEntry lib/error/disconnected.js
+708 silly gunzTarPerm modified mode [ 'lib/error/disconnected.js', 436, 420 ]
+709 silly gunzTarPerm extractEntry lib/helpers/model/discriminator.js
+710 silly gunzTarPerm modified mode [ 'lib/helpers/model/discriminator.js', 436, 420 ]
+711 silly gunzTarPerm extractEntry lib/error/divergentArray.js
+712 silly gunzTarPerm modified mode [ 'lib/error/divergentArray.js', 436, 420 ]
+713 silly gunzTarPerm extractEntry lib/operations/geo_haystack_search.js
+714 silly gunzTarPerm modified mode [ 'lib/operations/geo_haystack_search.js', 436, 420 ]
+715 silly gunzTarPerm extractEntry lib/core/wireprotocol/get_more.js
+716 silly gunzTarPerm modified mode [ 'lib/core/wireprotocol/get_more.js', 436, 420 ]
+717 silly gunzTarPerm extractEntry lib/gridfs/grid_store.js
+718 silly gunzTarPerm modified mode [ 'lib/gridfs/grid_store.js', 436, 420 ]
+719 silly gunzTarPerm extractEntry lib/document_provider.js
+720 silly gunzTarPerm modified mode [ 'lib/document_provider.js', 436, 420 ]
+721 silly gunzTarPerm extractEntry lib/core/auth/gssapi.js
+722 silly gunzTarPerm modified mode [ 'lib/core/auth/gssapi.js', 436, 420 ]
+723 silly gunzTarPerm extractEntry lib/document.js
+724 silly gunzTarPerm modified mode [ 'lib/document.js', 436, 420 ]
+725 silly gentlyRm /home/khj/d3.js/node_modules/.staging/d3-scale-80d6d36f/node_modules is being purged
+726 verbose gentlyRm don't care about contents; nuking /home/khj/d3.js/node_modules/.staging/d3-scale-80d6d36f/node_modules
+727 silly gunzTarPerm extractEntry lib/schema/documentarray.js
+728 silly gunzTarPerm modified mode [ 'lib/schema/documentarray.js', 436, 420 ]
+729 silly gunzTarPerm extractEntry lib/types/documentarray.js
+730 silly gunzTarPerm modified mode [ 'lib/types/documentarray.js', 436, 420 ]
+731 silly gunzTarPerm extractEntry lib/operations/index_exists.js
+732 silly gunzTarPerm extractEntry lib/operations/index_information.js
+733 silly gunzTarPerm extractEntry index.js
+734 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+735 silly gunzTarPerm extractEntry lib/driver.js
+736 silly gunzTarPerm modified mode [ 'lib/driver.js', 436, 420 ]
+737 silly gunzTarPerm extractEntry lib/core/index.js
+738 silly gunzTarPerm modified mode [ 'lib/core/index.js', 436, 420 ]
+739 silly gunzTarPerm extractEntry lib/helpers/each.js
+740 silly gunzTarPerm modified mode [ 'lib/helpers/each.js', 436, 420 ]
+741 silly gunzTarPerm extractEntry lib/helpers/cursor/eachAsync.js
+742 silly gunzTarPerm modified mode [ 'lib/helpers/cursor/eachAsync.js', 436, 420 ]
+743 silly gunzTarPerm extractEntry lib/types/embedded.js
+744 silly gunzTarPerm modified mode [ 'lib/types/embedded.js', 436, 420 ]
+745 silly gunzTarPerm extractEntry lib/schema/operators/exists.js
+746 silly gunzTarPerm modified mode [ 'lib/schema/operators/exists.js', 436, 420 ]
+747 silly gunzTarPerm extractEntry lib/schema/operators/geospatial.js
+748 silly gunzTarPerm modified mode [ 'lib/schema/operators/geospatial.js', 436, 420 ]
+749 silly gunzTarPerm extractEntry lib/core/wireprotocol/index.js
+750 silly gunzTarPerm modified mode [ 'lib/core/wireprotocol/index.js', 436, 420 ]
+751 silly gunzTarPerm extractEntry lib/gridfs-stream/index.js
+752 silly gunzTarPerm modified mode [ 'lib/gridfs-stream/index.js', 436, 420 ]
+753 silly gunzTarPerm extractEntry lib/helpers/get.js
+754 silly gunzTarPerm modified mode [ 'lib/helpers/get.js', 436, 420 ]
+755 silly gunzTarPerm extractEntry lib/helpers/discriminator/getConstructor.js
+756 silly gunzTarPerm modified mode [ 'lib/helpers/discriminator/getConstructor.js', 436, 420 ]
+757 silly gunzTarPerm extractEntry lib/helpers/discriminator/getDiscriminatorByValue.js
+758 silly gunzTarPerm modified mode [ 'lib/helpers/discriminator/getDiscriminatorByValue.js',
+758 silly gunzTarPerm   436,
+758 silly gunzTarPerm   420 ]
+759 silly gunzTarPerm extractEntry lib/helpers/document/getEmbeddedDiscriminatorPath.js
+760 silly gunzTarPerm modified mode [ 'lib/helpers/document/getEmbeddedDiscriminatorPath.js',
+760 silly gunzTarPerm   436,
+760 silly gunzTarPerm   420 ]
+761 silly gunzTarPerm extractEntry lib/operations/indexes.js
+762 silly gunzTarPerm extractEntry lib/operations/insert_many.js
+763 silly gunzTarPerm modified mode [ 'lib/operations/insert_many.js', 436, 420 ]
+764 silly gunzTarPerm extractEntry lib/helpers/query/getEmbeddedDiscriminatorPath.js
+765 silly gunzTarPerm modified mode [ 'lib/helpers/query/getEmbeddedDiscriminatorPath.js', 436, 420 ]
+766 silly gunzTarPerm extractEntry lib/operations/insert_one.js
+767 silly gunzTarPerm modified mode [ 'lib/operations/insert_one.js', 436, 420 ]
+768 silly gunzTarPerm extractEntry lib/helpers/getFunctionName.js
+769 silly gunzTarPerm modified mode [ 'lib/helpers/getFunctionName.js', 436, 420 ]
+770 silly gunzTarPerm extractEntry lib/helpers/schema/getIndexes.js
+771 silly gunzTarPerm modified mode [ 'lib/helpers/schema/getIndexes.js', 436, 420 ]
+772 silly gunzTarPerm extractEntry lib/helpers/populate/getModelsMapForPopulate.js
+773 silly gunzTarPerm modified mode [ 'lib/helpers/populate/getModelsMapForPopulate.js', 436, 420 ]
+774 silly gunzTarPerm extractEntry lib/helpers/schema/getPath.js
+775 silly gunzTarPerm modified mode [ 'lib/helpers/schema/getPath.js', 436, 420 ]
+776 silly gunzTarPerm extractEntry lib/operations/is_capped.js
+777 silly gunzTarPerm extractEntry lib/core/wireprotocol/kill_cursors.js
+778 silly gunzTarPerm modified mode [ 'lib/core/wireprotocol/kill_cursors.js', 436, 420 ]
+779 silly gunzTarPerm extractEntry lib/operations/list_collections.js
+780 silly gunzTarPerm modified mode [ 'lib/operations/list_collections.js', 436, 420 ]
+781 silly gunzTarPerm extractEntry lib/operations/list_databases.js
+782 silly gunzTarPerm extractEntry lib/helpers/populate/getSchemaTypes.js
+783 silly gunzTarPerm modified mode [ 'lib/helpers/populate/getSchemaTypes.js', 436, 420 ]
+784 silly gunzTarPerm extractEntry lib/helpers/populate/getVirtual.js
+785 silly gunzTarPerm modified mode [ 'lib/helpers/populate/getVirtual.js', 436, 420 ]
+786 silly gunzTarPerm extractEntry lib/operations/list_indexes.js
+787 silly gunzTarPerm modified mode [ 'lib/operations/list_indexes.js', 436, 420 ]
+788 silly gunzTarPerm extractEntry lib/core/connection/logger.js
+789 silly gunzTarPerm modified mode [ 'lib/core/connection/logger.js', 436, 420 ]
+790 silly gunzTarPerm extractEntry lib/helpers/schema/handleIdOption.js
+791 silly gunzTarPerm modified mode [ 'lib/helpers/schema/handleIdOption.js', 436, 420 ]
+792 silly gunzTarPerm extractEntry lib/helpers/query/handleImmutable.js
+793 silly gunzTarPerm modified mode [ 'lib/helpers/query/handleImmutable.js', 436, 420 ]
+794 silly gunzTarPerm extractEntry lib/operations/map_reduce.js
+795 silly gunzTarPerm modified mode [ 'lib/operations/map_reduce.js', 436, 420 ]
+796 silly gunzTarPerm extractEntry lib/cmap/message_stream.js
+797 silly gunzTarPerm modified mode [ 'lib/cmap/message_stream.js', 436, 420 ]
+798 silly gentlyRm /home/khj/d3.js/node_modules/.staging/bson-2dcf7e83/node_modules is being purged
+799 verbose gentlyRm don't care about contents; nuking /home/khj/d3.js/node_modules/.staging/bson-2dcf7e83/node_modules
+800 silly gunzTarPerm extractEntry lib/helpers/schematype/handleImmutable.js
+801 silly gunzTarPerm modified mode [ 'lib/helpers/schematype/handleImmutable.js', 436, 420 ]
+802 silly gunzTarPerm extractEntry lib/helpers/document/handleSpreadDoc.js
+803 silly gunzTarPerm modified mode [ 'lib/helpers/document/handleSpreadDoc.js', 436, 420 ]
+804 silly gunzTarPerm extractEntry lib/mongo_client.js
+805 silly gunzTarPerm modified mode [ 'lib/mongo_client.js', 436, 420 ]
+806 silly gunzTarPerm extractEntry lib/core/auth/mongo_credentials.js
+807 silly gunzTarPerm modified mode [ 'lib/core/auth/mongo_credentials.js', 436, 420 ]
+808 silly gunzTarPerm extractEntry lib/helpers/schema/handleTimestampOption.js
+809 silly gunzTarPerm modified mode [ 'lib/helpers/schema/handleTimestampOption.js', 436, 420 ]
+810 silly gunzTarPerm extractEntry lib/helpers/query/hasDollarKeys.js
+811 silly gunzTarPerm modified mode [ 'lib/helpers/query/hasDollarKeys.js', 436, 420 ]
+812 silly gunzTarPerm extractEntry lib/core/auth/mongocr.js
+813 silly gunzTarPerm modified mode [ 'lib/core/auth/mongocr.js', 436, 420 ]
+814 silly gunzTarPerm extractEntry lib/core/topologies/mongos.js
+815 silly gunzTarPerm modified mode [ 'lib/core/topologies/mongos.js', 436, 420 ]
+816 silly gunzTarPerm extractEntry lib/schema/operators/helpers.js
+817 silly gunzTarPerm modified mode [ 'lib/schema/operators/helpers.js', 436, 420 ]
+818 silly gunzTarPerm extractEntry lib/plugins/idGetter.js
+819 silly gunzTarPerm modified mode [ 'lib/plugins/idGetter.js', 436, 420 ]
+820 silly gunzTarPerm extractEntry lib/topologies/mongos.js
+821 silly gunzTarPerm modified mode [ 'lib/topologies/mongos.js', 436, 420 ]
+822 silly gunzTarPerm extractEntry lib/core/sdam/monitor.js
+823 silly gunzTarPerm modified mode [ 'lib/core/sdam/monitor.js', 436, 420 ]
+824 silly gunzTarPerm extractEntry lib/helpers/immediate.js
+825 silly gunzTarPerm modified mode [ 'lib/helpers/immediate.js', 436, 420 ]
+826 silly gunzTarPerm extractEntry index.js
+827 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+828 silly gunzTarPerm extractEntry lib/core/connection/msg.js
+829 silly gunzTarPerm modified mode [ 'lib/core/connection/msg.js', 436, 420 ]
+830 silly gunzTarPerm extractEntry lib/topologies/native_topology.js
+831 silly gunzTarPerm modified mode [ 'lib/topologies/native_topology.js', 436, 420 ]
+832 silly gunzTarPerm extractEntry lib/drivers/browser/index.js
+833 silly gunzTarPerm modified mode [ 'lib/drivers/browser/index.js', 436, 420 ]
+834 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/index.js
+835 silly gunzTarPerm modified mode [ 'lib/drivers/node-mongodb-native/index.js', 436, 420 ]
+836 silly gunzTarPerm extractEntry lib/operations/operation.js
+837 silly gunzTarPerm extractEntry lib/operations/options_operation.js
+838 silly gunzTarPerm modified mode [ 'lib/operations/options_operation.js', 436, 420 ]
+839 silly gunzTarPerm extractEntry lib/bulk/ordered.js
+840 silly gunzTarPerm modified mode [ 'lib/bulk/ordered.js', 436, 420 ]
+841 silly gunzTarPerm extractEntry lib/error/index.js
+842 silly gunzTarPerm modified mode [ 'lib/error/index.js', 436, 420 ]
+843 silly gunzTarPerm extractEntry lib/index.js
+844 silly gunzTarPerm modified mode [ 'lib/index.js', 436, 420 ]
+845 silly gunzTarPerm extractEntry lib/core/auth/plain.js
+846 silly gunzTarPerm modified mode [ 'lib/core/auth/plain.js', 436, 420 ]
+847 silly gunzTarPerm extractEntry lib/schema/index.js
+848 silly gunzTarPerm modified mode [ 'lib/schema/index.js', 436, 420 ]
+849 silly gunzTarPerm extractEntry lib/types/index.js
+850 silly gunzTarPerm modified mode [ 'lib/types/index.js', 436, 420 ]
+851 silly gunzTarPerm extractEntry lib/core/connection/pool.js
+852 silly gunzTarPerm modified mode [ 'lib/core/connection/pool.js', 436, 420 ]
+853 silly gunzTarPerm extractEntry lib/operations/profiling_level.js
+854 silly gunzTarPerm extractEntry lib/core/wireprotocol/query.js
+855 silly gunzTarPerm modified mode [ 'lib/core/wireprotocol/query.js', 436, 420 ]
+856 silly gunzTarPerm extractEntry lib/operations/re_index.js
+857 silly gunzTarPerm extractEntry lib/read_concern.js
+858 silly gunzTarPerm modified mode [ 'lib/read_concern.js', 436, 420 ]
+859 silly gunzTarPerm extractEntry lib/internal.js
+860 silly gunzTarPerm modified mode [ 'lib/internal.js', 436, 420 ]
+861 silly gunzTarPerm extractEntry lib/helpers/topology/isAtlas.js
+862 silly gunzTarPerm modified mode [ 'lib/helpers/topology/isAtlas.js', 436, 420 ]
+863 silly gunzTarPerm extractEntry lib/core/topologies/read_preference.js
+864 silly gunzTarPerm modified mode [ 'lib/core/topologies/read_preference.js', 436, 420 ]
+865 silly gunzTarPerm extractEntry lib/operations/remove_user.js
+866 silly gunzTarPerm extractEntry lib/helpers/isBsonType.js
+867 silly gunzTarPerm modified mode [ 'lib/helpers/isBsonType.js', 436, 420 ]
+868 silly gunzTarPerm extractEntry lib/helpers/indexes/isDefaultIdIndex.js
+869 silly gunzTarPerm modified mode [ 'lib/helpers/indexes/isDefaultIdIndex.js', 436, 420 ]
+870 silly gunzTarPerm extractEntry lib/operations/rename.js
+871 silly gunzTarPerm extractEntry lib/operations/replace_one.js
+872 silly gunzTarPerm extractEntry lib/core/topologies/replset_state.js
+873 silly gunzTarPerm modified mode [ 'lib/core/topologies/replset_state.js', 436, 420 ]
+874 silly gunzTarPerm extractEntry lib/core/topologies/replset.js
+875 silly gunzTarPerm modified mode [ 'lib/core/topologies/replset.js', 436, 420 ]
+876 silly gunzTarPerm extractEntry lib/topologies/replset.js
+877 silly gunzTarPerm modified mode [ 'lib/topologies/replset.js', 436, 420 ]
+878 silly gunzTarPerm extractEntry lib/helpers/projection/isDefiningProjection.js
+879 silly gunzTarPerm modified mode [ 'lib/helpers/projection/isDefiningProjection.js', 436, 420 ]
+880 silly gunzTarPerm extractEntry lib/helpers/projection/isExclusive.js
+881 silly gunzTarPerm modified mode [ 'lib/helpers/projection/isExclusive.js', 436, 420 ]
+882 silly gunzTarPerm extractEntry lib/helpers/projection/isInclusive.js
+883 silly gunzTarPerm modified mode [ 'lib/helpers/projection/isInclusive.js', 436, 420 ]
+884 silly gunzTarPerm extractEntry lib/helpers/isMongooseObject.js
+885 silly gunzTarPerm modified mode [ 'lib/helpers/isMongooseObject.js', 436, 420 ]
+886 silly gunzTarPerm extractEntry lib/core/auth/scram.js
+887 silly gunzTarPerm modified mode [ 'lib/core/auth/scram.js', 436, 420 ]
+888 silly gunzTarPerm extractEntry lib/helpers/isObject.js
+889 silly gunzTarPerm modified mode [ 'lib/helpers/isObject.js', 436, 420 ]
+890 silly gunzTarPerm extractEntry lib/helpers/query/isOperator.js
+891 silly gunzTarPerm modified mode [ 'lib/helpers/query/isOperator.js', 436, 420 ]
+892 silly gunzTarPerm extractEntry lib/core/sdam/server_description.js
+893 silly gunzTarPerm modified mode [ 'lib/core/sdam/server_description.js', 436, 420 ]
+894 silly gunzTarPerm extractEntry lib/core/sdam/server_selection.js
+895 silly gunzTarPerm modified mode [ 'lib/core/sdam/server_selection.js', 436, 420 ]
+896 silly gunzTarPerm extractEntry lib/core/sdam/server.js
+897 silly gunzTarPerm modified mode [ 'lib/core/sdam/server.js', 436, 420 ]
+898 silly gunzTarPerm extractEntry lib/core/topologies/server.js
+899 silly gunzTarPerm modified mode [ 'lib/core/topologies/server.js', 436, 420 ]
+900 silly gunzTarPerm extractEntry lib/helpers/projection/isPathExcluded.js
+901 silly gunzTarPerm modified mode [ 'lib/helpers/projection/isPathExcluded.js', 436, 420 ]
+902 silly gunzTarPerm extractEntry lib/helpers/projection/isPathSelectedInclusive.js
+903 silly gunzTarPerm modified mode [ 'lib/helpers/projection/isPathSelectedInclusive.js', 436, 420 ]
+904 silly gunzTarPerm extractEntry lib/topologies/server.js
+905 silly gunzTarPerm modified mode [ 'lib/topologies/server.js', 436, 420 ]
+906 silly gunzTarPerm extractEntry lib/core/sessions.js
+907 silly gunzTarPerm modified mode [ 'lib/core/sessions.js', 436, 420 ]
+908 silly gunzTarPerm extractEntry lib/helpers/populate/leanPopulateMap.js
+909 silly gunzTarPerm modified mode [ 'lib/helpers/populate/leanPopulateMap.js', 436, 420 ]
+910 silly gunzTarPerm extractEntry lib/schema/map.js
+911 silly gunzTarPerm modified mode [ 'lib/schema/map.js', 436, 420 ]
+912 silly gunzTarPerm extractEntry lib/operations/set_profiling_level.js
+913 silly gunzTarPerm extractEntry lib/core/topologies/shared.js
+914 silly gunzTarPerm modified mode [ 'lib/core/topologies/shared.js', 436, 420 ]
+915 silly gunzTarPerm extractEntry lib/types/map.js
+916 silly gunzTarPerm modified mode [ 'lib/types/map.js', 436, 420 ]
+917 silly gunzTarPerm extractEntry lib/helpers/schema/merge.js
+918 silly gunzTarPerm modified mode [ 'lib/helpers/schema/merge.js', 436, 420 ]
+919 silly gunzTarPerm extractEntry lib/error/messages.js
+920 silly gunzTarPerm modified mode [ 'lib/error/messages.js', 436, 420 ]
+921 silly gunzTarPerm extractEntry lib/error/missingSchema.js
+922 silly gunzTarPerm modified mode [ 'lib/error/missingSchema.js', 436, 420 ]
+923 silly gunzTarPerm extractEntry lib/core/wireprotocol/shared.js
+924 silly gunzTarPerm modified mode [ 'lib/core/wireprotocol/shared.js', 436, 420 ]
+925 silly gunzTarPerm extractEntry lib/core/tools/smoke_plugin.js
+926 silly gunzTarPerm modified mode [ 'lib/core/tools/smoke_plugin.js', 436, 420 ]
+927 silly gunzTarPerm extractEntry lib/schema/mixed.js
+928 silly gunzTarPerm modified mode [ 'lib/schema/mixed.js', 436, 420 ]
+929 silly gunzTarPerm extractEntry lib/model.js
+930 silly gunzTarPerm modified mode [ 'lib/model.js', 436, 420 ]
+931 silly gunzTarPerm extractEntry lib/core/sdam/srv_polling.js
+932 silly gunzTarPerm modified mode [ 'lib/core/sdam/srv_polling.js', 436, 420 ]
+933 silly gunzTarPerm extractEntry lib/core/auth/sspi.js
+934 silly gunzTarPerm modified mode [ 'lib/core/auth/sspi.js', 436, 420 ]
+935 silly gunzTarPerm extractEntry lib/helpers/update/modifiedPaths.js
+936 silly gunzTarPerm modified mode [ 'lib/helpers/update/modifiedPaths.js', 436, 420 ]
+937 silly gunzTarPerm extractEntry lib/operations/stats.js
+938 silly gunzTarPerm modified mode [ 'lib/operations/stats.js', 436, 420 ]
+939 silly gunzTarPerm extractEntry lib/cmap/stream_description.js
+940 silly gunzTarPerm modified mode [ 'lib/cmap/stream_description.js', 436, 420 ]
+941 silly gunzTarPerm extractEntry lib/error/mongooseError.js
+942 silly gunzTarPerm modified mode [ 'lib/error/mongooseError.js', 436, 420 ]
+943 silly gunzTarPerm extractEntry lib/helpers/update/moveImmutableProperties.js
+944 silly gunzTarPerm modified mode [ 'lib/helpers/update/moveImmutableProperties.js', 436, 420 ]
+945 silly gunzTarPerm extractEntry lib/topologies/topology_base.js
+946 silly gunzTarPerm modified mode [ 'lib/topologies/topology_base.js', 436, 420 ]
+947 silly gunzTarPerm extractEntry lib/core/sdam/topology_description.js
+948 silly gunzTarPerm modified mode [ 'lib/core/sdam/topology_description.js', 436, 420 ]
+949 silly gunzTarPerm extractEntry lib/core/sdam/topology.js
+950 silly gunzTarPerm modified mode [ 'lib/core/sdam/topology.js', 436, 420 ]
+951 silly gunzTarPerm extractEntry lib/core/transactions.js
+952 silly gunzTarPerm modified mode [ 'lib/core/transactions.js', 436, 420 ]
+953 silly gunzTarPerm extractEntry lib/helpers/populate/normalizeRefPath.js
+954 silly gunzTarPerm modified mode [ 'lib/helpers/populate/normalizeRefPath.js', 436, 420 ]
+955 silly gunzTarPerm extractEntry lib/error/notFound.js
+956 silly gunzTarPerm modified mode [ 'lib/error/notFound.js', 436, 420 ]
+957 silly gunzTarPerm extractEntry lib/cast/number.js
+958 silly gunzTarPerm modified mode [ 'lib/cast/number.js', 436, 420 ]
+959 silly gunzTarPerm extractEntry lib/schema/number.js
+960 silly gunzTarPerm modified mode [ 'lib/schema/number.js', 436, 420 ]
+961 silly gunzTarPerm extractEntry lib/error/objectExpected.js
+962 silly gunzTarPerm modified mode [ 'lib/error/objectExpected.js', 436, 420 ]
+963 silly gunzTarPerm extractEntry lib/bulk/unordered.js
+964 silly gunzTarPerm modified mode [ 'lib/bulk/unordered.js', 436, 420 ]
+965 silly gunzTarPerm extractEntry lib/operations/update_many.js
+966 silly gunzTarPerm extractEntry lib/cast/objectid.js
+967 silly gunzTarPerm modified mode [ 'lib/cast/objectid.js', 436, 420 ]
+968 silly gunzTarPerm extractEntry lib/drivers/browser/objectid.js
+969 silly gunzTarPerm modified mode [ 'lib/drivers/browser/objectid.js', 436, 420 ]
+970 silly gunzTarPerm extractEntry lib/operations/update_one.js
+971 silly gunzTarPerm extractEntry lib/gridfs-stream/upload.js
+972 silly gunzTarPerm modified mode [ 'lib/gridfs-stream/upload.js', 436, 420 ]
+973 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/objectid.js
+974 silly gunzTarPerm modified mode [ 'lib/drivers/node-mongodb-native/objectid.js', 436, 420 ]
+975 silly gunzTarPerm extractEntry lib/schema/objectid.js
+976 silly gunzTarPerm modified mode [ 'lib/schema/objectid.js', 436, 420 ]
+977 silly gunzTarPerm extractEntry lib/core/uri_parser.js
+978 silly gunzTarPerm modified mode [ 'lib/core/uri_parser.js', 436, 420 ]
+979 silly gunzTarPerm extractEntry lib/url_parser.js
+980 silly gunzTarPerm modified mode [ 'lib/url_parser.js', 436, 420 ]
+981 silly gunzTarPerm extractEntry lib/types/objectid.js
+982 silly gunzTarPerm modified mode [ 'lib/types/objectid.js', 436, 420 ]
+983 silly gunzTarPerm extractEntry lib/error/objectParameter.js
+984 silly gunzTarPerm modified mode [ 'lib/error/objectParameter.js', 436, 420 ]
+985 silly gunzTarPerm extractEntry lib/helpers/once.js
+986 silly gunzTarPerm modified mode [ 'lib/helpers/once.js', 436, 420 ]
+987 silly gunzTarPerm extractEntry lib/options.js
+988 silly gunzTarPerm modified mode [ 'lib/options.js', 436, 420 ]
+989 silly gunzTarPerm extractEntry lib/core/connection/utils.js
+990 silly gunzTarPerm modified mode [ 'lib/core/connection/utils.js', 436, 420 ]
+991 silly gunzTarPerm extractEntry lib/core/utils.js
+992 silly gunzTarPerm modified mode [ 'lib/core/utils.js', 436, 420 ]
+993 silly gunzTarPerm extractEntry lib/error/overwriteModel.js
+994 silly gunzTarPerm modified mode [ 'lib/error/overwriteModel.js', 436, 420 ]
+995 silly gunzTarPerm extractEntry lib/helpers/parallelLimit.js
+996 silly gunzTarPerm modified mode [ 'lib/helpers/parallelLimit.js', 436, 420 ]
+997 silly gunzTarPerm extractEntry lib/utils.js
+998 silly gunzTarPerm modified mode [ 'lib/utils.js', 436, 420 ]
+999 silly gunzTarPerm extractEntry lib/operations/validate_collection.js
+1000 silly gunzTarPerm modified mode [ 'lib/operations/validate_collection.js', 436, 420 ]
+1001 silly gunzTarPerm extractEntry lib/core/wireprotocol/write_command.js
+1002 silly gunzTarPerm modified mode [ 'lib/core/wireprotocol/write_command.js', 436, 420 ]
+1003 silly gunzTarPerm extractEntry lib/write_concern.js
+1004 silly gunzTarPerm modified mode [ 'lib/write_concern.js', 436, 420 ]
+1005 silly gunzTarPerm extractEntry lib/core/auth/x509.js
+1006 silly gunzTarPerm modified mode [ 'lib/core/auth/x509.js', 436, 420 ]
+1007 silly gunzTarPerm extractEntry package.json
+1008 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+1009 silly gunzTarPerm extractEntry HISTORY.md
+1010 silly gunzTarPerm modified mode [ 'HISTORY.md', 436, 420 ]
+1011 silly gunzTarPerm extractEntry LICENSE.md
+1012 silly gunzTarPerm extractEntry README.md
+1013 silly gunzTarPerm extractEntry lib/error/parallelSave.js
+1014 silly gunzTarPerm modified mode [ 'lib/error/parallelSave.js', 436, 420 ]
+1015 silly gunzTarPerm extractEntry lib/error/parallelValidate.js
+1016 silly gunzTarPerm modified mode [ 'lib/error/parallelValidate.js', 436, 420 ]
+1017 silly gunzTarPerm extractEntry lib/helpers/projection/parseProjection.js
+1018 silly gunzTarPerm modified mode [ 'lib/helpers/projection/parseProjection.js', 436, 420 ]
+1019 silly gunzTarPerm extractEntry lib/options/PopulateOptions.js
+1020 silly gunzTarPerm modified mode [ 'lib/options/PopulateOptions.js', 436, 420 ]
+1021 silly gunzTarPerm extractEntry lib/helpers/printJestWarning.js
+1022 silly gunzTarPerm modified mode [ 'lib/helpers/printJestWarning.js', 436, 420 ]
+1023 silly gunzTarPerm extractEntry lib/promise_provider.js
+1024 silly gunzTarPerm modified mode [ 'lib/promise_provider.js', 436, 420 ]
+1025 silly gunzTarPerm extractEntry lib/helpers/promiseOrCallback.js
+1026 silly gunzTarPerm modified mode [ 'lib/helpers/promiseOrCallback.js', 436, 420 ]
+1027 silly gunzTarPerm extractEntry lib/options/propertyOptions.js
+1028 silly gunzTarPerm modified mode [ 'lib/options/propertyOptions.js', 436, 420 ]
+1029 silly gunzTarPerm extractEntry lib/query.js
+1030 silly gunzTarPerm modified mode [ 'lib/query.js', 436, 420 ]
+1031 silly gunzTarPerm extractEntry lib/cursor/QueryCursor.js
+1032 silly gunzTarPerm modified mode [ 'lib/cursor/QueryCursor.js', 436, 420 ]
+1033 silly gunzTarPerm extractEntry lib/queryhelpers.js
+1034 silly gunzTarPerm modified mode [ 'lib/queryhelpers.js', 436, 420 ]
+1035 silly gunzTarPerm extractEntry lib/drivers/browser/ReadPreference.js
+1036 silly gunzTarPerm modified mode [ 'lib/drivers/browser/ReadPreference.js', 436, 420 ]
+1037 silly gunzTarPerm extractEntry lib/drivers/node-mongodb-native/ReadPreference.js
+1038 silly gunzTarPerm modified mode [ 'lib/drivers/node-mongodb-native/ReadPreference.js', 436, 420 ]
+1039 silly gunzTarPerm extractEntry lib/options/removeOptions.js
+1040 silly gunzTarPerm modified mode [ 'lib/options/removeOptions.js', 436, 420 ]
+1041 silly gunzTarPerm extractEntry lib/plugins/removeSubdocs.js
+1042 silly gunzTarPerm modified mode [ 'lib/plugins/removeSubdocs.js', 436, 420 ]
+1043 silly gunzTarPerm extractEntry tools/repl.js
+1044 silly gunzTarPerm modified mode [ 'tools/repl.js', 436, 420 ]
+1045 silly gunzTarPerm extractEntry lib/options/saveOptions.js
+1046 silly gunzTarPerm modified mode [ 'lib/options/saveOptions.js', 436, 420 ]
+1047 silly gunzTarPerm extractEntry lib/plugins/saveSubdocs.js
+1048 silly gunzTarPerm modified mode [ 'lib/plugins/saveSubdocs.js', 436, 420 ]
+1049 silly gunzTarPerm extractEntry lib/schema.js
+1050 silly gunzTarPerm modified mode [ 'lib/schema.js', 436, 420 ]
+1051 silly gunzTarPerm extractEntry lib/options/SchemaArrayOptions.js
+1052 silly gunzTarPerm modified mode [ 'lib/options/SchemaArrayOptions.js', 436, 420 ]
+1053 silly gunzTarPerm extractEntry lib/options/SchemaBufferOptions.js
+1054 silly gunzTarPerm modified mode [ 'lib/options/SchemaBufferOptions.js', 436, 420 ]
+1055 silly gunzTarPerm extractEntry lib/options/SchemaDateOptions.js
+1056 silly gunzTarPerm modified mode [ 'lib/options/SchemaDateOptions.js', 436, 420 ]
+1057 silly gunzTarPerm extractEntry lib/options/SchemaDocumentArrayOptions.js
+1058 silly gunzTarPerm modified mode [ 'lib/options/SchemaDocumentArrayOptions.js', 436, 420 ]
+1059 silly gunzTarPerm extractEntry lib/options/SchemaMapOptions.js
+1060 silly gunzTarPerm modified mode [ 'lib/options/SchemaMapOptions.js', 436, 420 ]
+1061 silly gunzTarPerm extractEntry lib/options/SchemaNumberOptions.js
+1062 silly gunzTarPerm modified mode [ 'lib/options/SchemaNumberOptions.js', 436, 420 ]
+1063 silly gunzTarPerm extractEntry lib/options/SchemaObjectIdOptions.js
+1064 silly gunzTarPerm modified mode [ 'lib/options/SchemaObjectIdOptions.js', 436, 420 ]
+1065 silly gunzTarPerm extractEntry lib/options/SchemaSingleNestedOptions.js
+1066 silly gunzTarPerm modified mode [ 'lib/options/SchemaSingleNestedOptions.js', 436, 420 ]
+1067 silly gunzTarPerm extractEntry lib/options/SchemaStringOptions.js
+1068 silly gunzTarPerm modified mode [ 'lib/options/SchemaStringOptions.js', 436, 420 ]
+1069 silly gunzTarPerm extractEntry lib/schematype.js
+1070 silly gunzTarPerm modified mode [ 'lib/schematype.js', 436, 420 ]
+1071 silly gunzTarPerm extractEntry lib/options/SchemaTypeOptions.js
+1072 silly gunzTarPerm modified mode [ 'lib/options/SchemaTypeOptions.js', 436, 420 ]
+1073 silly gunzTarPerm extractEntry lib/helpers/query/selectPopulatedFields.js
+1074 silly gunzTarPerm modified mode [ 'lib/helpers/query/selectPopulatedFields.js', 436, 420 ]
+1075 silly gunzTarPerm extractEntry lib/error/serverSelection.js
+1076 silly gunzTarPerm modified mode [ 'lib/error/serverSelection.js', 436, 420 ]
+1077 silly gunzTarPerm extractEntry lib/helpers/setDefaultsOnInsert.js
+1078 silly gunzTarPerm modified mode [ 'lib/helpers/setDefaultsOnInsert.js', 436, 420 ]
+1079 silly gunzTarPerm extractEntry tools/sharded.js
+1080 silly gunzTarPerm modified mode [ 'tools/sharded.js', 436, 420 ]
+1081 silly gunzTarPerm extractEntry lib/plugins/sharding.js
+1082 silly gunzTarPerm modified mode [ 'lib/plugins/sharding.js', 436, 420 ]
+1083 silly gunzTarPerm extractEntry lib/schema/SingleNestedPath.js
+1084 silly gunzTarPerm modified mode [ 'lib/schema/SingleNestedPath.js', 436, 420 ]
+1085 silly gunzTarPerm extractEntry lib/helpers/populate/SkipPopulateValue.js
+1086 silly gunzTarPerm modified mode [ 'lib/helpers/populate/SkipPopulateValue.js', 436, 420 ]
+1087 silly gunzTarPerm extractEntry lib/helpers/specialProperties.js
+1088 silly gunzTarPerm modified mode [ 'lib/helpers/specialProperties.js', 436, 420 ]
+1089 silly gunzTarPerm extractEntry lib/statemachine.js
+1090 silly gunzTarPerm modified mode [ 'lib/statemachine.js', 436, 420 ]
+1091 silly gunzTarPerm extractEntry lib/error/strict.js
+1092 silly gunzTarPerm modified mode [ 'lib/error/strict.js', 436, 420 ]
+1093 silly gunzTarPerm extractEntry lib/cast/string.js
+1094 silly gunzTarPerm modified mode [ 'lib/cast/string.js', 436, 420 ]
+1095 silly gunzTarPerm extractEntry lib/schema/string.js
+1096 silly gunzTarPerm modified mode [ 'lib/schema/string.js', 436, 420 ]
+1097 silly gunzTarPerm extractEntry lib/types/subdocument.js
+1098 silly gunzTarPerm modified mode [ 'lib/types/subdocument.js', 436, 420 ]
+1099 silly gunzTarPerm extractEntry lib/helpers/symbols.js
+1100 silly gunzTarPerm modified mode [ 'lib/helpers/symbols.js', 436, 420 ]
+1101 silly gunzTarPerm extractEntry lib/schema/symbols.js
+1102 silly gunzTarPerm modified mode [ 'lib/schema/symbols.js', 436, 420 ]
+1103 silly gunzTarPerm extractEntry lib/schema/operators/text.js
+1104 silly gunzTarPerm modified mode [ 'lib/schema/operators/text.js', 436, 420 ]
+1105 silly gunzTarPerm extractEntry lib/schema/operators/type.js
+1106 silly gunzTarPerm modified mode [ 'lib/schema/operators/type.js', 436, 420 ]
+1107 silly gunzTarPerm extractEntry lib/helpers/updateValidators.js
+1108 silly gunzTarPerm modified mode [ 'lib/helpers/updateValidators.js', 436, 420 ]
+1109 silly gunzTarPerm extractEntry lib/utils.js
+1110 silly gunzTarPerm modified mode [ 'lib/utils.js', 436, 420 ]
+1111 silly gunzTarPerm extractEntry lib/plugins/validateBeforeSave.js
+1112 silly gunzTarPerm modified mode [ 'lib/plugins/validateBeforeSave.js', 436, 420 ]
+1113 silly gunzTarPerm extractEntry lib/helpers/populate/validateRef.js
+1114 silly gunzTarPerm modified mode [ 'lib/helpers/populate/validateRef.js', 436, 420 ]
+1115 silly gunzTarPerm extractEntry lib/error/validation.js
+1116 silly gunzTarPerm modified mode [ 'lib/error/validation.js', 436, 420 ]
+1117 silly gunzTarPerm extractEntry lib/error/validator.js
+1118 silly gunzTarPerm modified mode [ 'lib/error/validator.js', 436, 420 ]
+1119 silly gunzTarPerm extractEntry lib/validoptions.js
+1120 silly gunzTarPerm modified mode [ 'lib/validoptions.js', 436, 420 ]
+1121 silly gunzTarPerm extractEntry lib/error/version.js
+1122 silly gunzTarPerm modified mode [ 'lib/error/version.js', 436, 420 ]
+1123 silly gunzTarPerm extractEntry lib/options/VirtualOptions.js
+1124 silly gunzTarPerm modified mode [ 'lib/options/VirtualOptions.js', 436, 420 ]
+1125 silly gunzTarPerm extractEntry lib/virtualtype.js
+1126 silly gunzTarPerm modified mode [ 'lib/virtualtype.js', 436, 420 ]
+1127 silly gunzTarPerm extractEntry webpack.base.config.js
+1128 silly gunzTarPerm modified mode [ 'webpack.base.config.js', 436, 420 ]
+1129 silly gunzTarPerm extractEntry webpack.config.js
+1130 silly gunzTarPerm modified mode [ 'webpack.config.js', 436, 420 ]
+1131 silly gunzTarPerm extractEntry lib/helpers/query/wrapThunk.js
+1132 silly gunzTarPerm modified mode [ 'lib/helpers/query/wrapThunk.js', 436, 420 ]
+1133 silly gunzTarPerm extractEntry package.json
+1134 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+1135 silly gunzTarPerm extractEntry History.md
+1136 silly gunzTarPerm modified mode [ 'History.md', 436, 420 ]
+1137 silly gunzTarPerm extractEntry LICENSE.md
+1138 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 420 ]
+1139 silly gunzTarPerm extractEntry README.md
+1140 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+1141 silly gunzTarPerm extractEntry SECURITY.md
+1142 silly gunzTarPerm modified mode [ 'SECURITY.md', 436, 420 ]
+1143 silly gunzTarPerm extractEntry lib/drivers/SPEC.md
+1144 silly gunzTarPerm modified mode [ 'lib/drivers/SPEC.md', 436, 420 ]
+1145 silly gunzTarPerm extractEntry .travis.yml
+1146 silly gunzTarPerm modified mode [ '.travis.yml', 436, 420 ]
+1147 silly gentlyRm /home/khj/d3.js/node_modules/.staging/mongodb-ec7c22f9/node_modules is being purged
+1148 verbose gentlyRm don't care about contents; nuking /home/khj/d3.js/node_modules/.staging/mongodb-ec7c22f9/node_modules
+1149 silly gentlyRm /home/khj/d3.js/node_modules/.staging/mongoose-3bc55c70/node_modules is being purged
+1150 verbose gentlyRm don't care about contents; nuking /home/khj/d3.js/node_modules/.staging/mongoose-3bc55c70/node_modules
+1151 silly doParallel preinstall 10
+1152 silly preinstall body-parser@1.19.0 /home/khj/d3.js/node_modules/.staging/body-parser-62d7e897
+1153 info lifecycle body-parser@1.19.0~preinstall: body-parser@1.19.0
+1154 silly preinstall express@4.17.1 /home/khj/d3.js/node_modules/.staging/express-f0cc329d
+1155 info lifecycle express@4.17.1~preinstall: express@4.17.1
+1156 silly preinstall bson@1.1.4 /home/khj/d3.js/node_modules/.staging/bson-2dcf7e83
+1157 info lifecycle bson@1.1.4~preinstall: bson@1.1.4
+1158 silly preinstall mongodb@3.5.7 /home/khj/d3.js/node_modules/.staging/mongodb-ec7c22f9
+1159 info lifecycle mongodb@3.5.7~preinstall: mongodb@3.5.7
+1160 silly preinstall mpath@0.7.0 /home/khj/d3.js/node_modules/.staging/mpath-56457c36
+1161 info lifecycle mpath@0.7.0~preinstall: mpath@0.7.0
+1162 silly preinstall ms@2.1.2 /home/khj/d3.js/node_modules/.staging/ms-73599cf2
+1163 info lifecycle ms@2.1.2~preinstall: ms@2.1.2
+1164 silly preinstall d3-scale@3.2.1 /home/khj/d3.js/node_modules/.staging/d3-scale-80d6d36f
+1165 info lifecycle d3-scale@3.2.1~preinstall: d3-scale@3.2.1
+1166 silly preinstall dotenv@8.2.0 /home/khj/d3.js/node_modules/.staging/dotenv-fc6c280e
+1167 info lifecycle dotenv@8.2.0~preinstall: dotenv@8.2.0
+1168 silly preinstall express.js@1.0.0 /home/khj/d3.js/node_modules/.staging/express.js-96cc4910
+1169 info lifecycle express.js@1.0.0~preinstall: express.js@1.0.0
+1170 silly preinstall mongoose@5.9.13 /home/khj/d3.js/node_modules/.staging/mongoose-3bc55c70
+1171 info lifecycle mongoose@5.9.13~preinstall: mongoose@5.9.13
+1172 silly lifecycle body-parser@1.19.0~preinstall: no script for preinstall, continuing
+1173 silly lifecycle express@4.17.1~preinstall: no script for preinstall, continuing
+1174 silly lifecycle bson@1.1.4~preinstall: no script for preinstall, continuing
+1175 silly lifecycle mongodb@3.5.7~preinstall: no script for preinstall, continuing
+1176 silly lifecycle mpath@0.7.0~preinstall: no script for preinstall, continuing
+1177 silly lifecycle ms@2.1.2~preinstall: no script for preinstall, continuing
+1178 silly lifecycle d3-scale@3.2.1~preinstall: no script for preinstall, continuing
+1179 silly lifecycle dotenv@8.2.0~preinstall: no script for preinstall, continuing
+1180 silly lifecycle express.js@1.0.0~preinstall: no script for preinstall, continuing
+1181 silly lifecycle mongoose@5.9.13~preinstall: no script for preinstall, continuing
+1182 silly doReverseSerial remove 0
+1183 silly doSerial move 0
+1184 silly doSerial finalize 10
+1185 silly finalize /home/khj/d3.js/node_modules/body-parser
+1186 silly finalize /home/khj/d3.js/node_modules/express
+1187 silly finalize /home/khj/d3.js/node_modules/mongoose/node_modules/bson
+1188 silly finalize /home/khj/d3.js/node_modules/mongoose/node_modules/mongodb
+1189 silly finalize /home/khj/d3.js/node_modules/mongoose/node_modules/mpath
+1190 silly finalize /home/khj/d3.js/node_modules/mongoose/node_modules/ms
+1191 silly finalize /home/khj/d3.js/node_modules/d3-scale
+1192 silly finalize /home/khj/d3.js/node_modules/dotenv
+1193 silly finalize /home/khj/d3.js/node_modules/express.js
+1194 silly finalize /home/khj/d3.js/node_modules/mongoose
+1195 verbose unlock done using /home/khj/.npm/_locks/staging-755eb99280223fe5.lock for /home/khj/d3.js/node_modules/.staging
+1196 silly rollbackFailedOptional Starting
+1197 silly rollbackFailedOptional Finishing
+1198 silly runTopLevelLifecycles Starting
+1199 silly runTopLevelLifecycles Finishing
+1200 silly install printInstalled
+1201 verbose stack Error: ENOTEMPTY: directory not empty, rename '/home/khj/d3.js/node_modules/mongoose' -> '/home/khj/d3.js/node_modules/.mongoose.DELETE'
+1201 verbose stack     at moveAway (/usr/share/npm/lib/install/action/finalize.js:38:5)
+1201 verbose stack     at destStatted (/usr/share/npm/lib/install/action/finalize.js:27:7)
+1201 verbose stack     at FSReqWrap.oncomplete (fs.js:82:15)
+1201 verbose stack
+1201 verbose stack Error: ENOTEMPTY: directory not empty, rename '/home/khj/d3.js/node_modules/mongoose' -> '/home/khj/d3.js/node_modules/.mongoose.DELETE'
+1201 verbose stack     at Error (native)
+1202 verbose cwd /home/khj/d3.js/KoreaMap
+1203 error Linux 4.15.0-91-generic
+1204 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "mongoose"
+1205 error node v4.2.6
+1206 error npm  v3.5.2
+1207 error path /home/khj/d3.js/node_modules/mongoose
+1208 error code ENOTEMPTY
+1209 error errno -39
+1210 error syscall rename
+1211 error ENOTEMPTY: directory not empty, rename '/home/khj/d3.js/node_modules/mongoose' -> '/home/khj/d3.js/node_modules/.mongoose.DELETE'
+1212 error If you need help, you may report this error at:
+1212 error     <https://github.com/npm/npm/issues>
+1213 verbose exit [ -39, true ]

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<header>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/customCss.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+</header>
+
+<body>
+    <h1 style="margin-left:650px">대한민국 지도</h1>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <br><br>
+
+    <div id="d3_korea"></div>
+    <div id="chart">지역 지도
+        <div id = "local_map"></div>
+        <div id = "option">
+            <select onchange="categoryChange(this)">
+                <option value="default">전체</option>
+                <option value="Seoul">서울특별시</option>
+                <option value="Busan">부산광역시</option>
+                <option value="Daegu">대구광역시</option>
+                <option value="Incheon">인천광역시</option>
+                <option value="Gwangju">광주광역시</option>
+                <option value="Daejeon">대전광역시</option>
+                <option value="Ulsan">울산광역시</option>
+                <option value="Sejong">세종시</option>
+                <option value="Gyeonggi">경기도</option>
+                <option value="GangWon">강원도</option>
+                <option value="ChungNam">충청남도</option>
+                <option value="ChungBuk">충청북도</option>
+                <option value="JeonNam">전라남도</option>
+                <option value="JeonBuk">전라북도</option>
+                <option value="GyeongNam">경상남도</option>
+                <option value="GyeongBuk">경상북도</option>
+                <option value="Jeju">제주특별자치도</option>
+            </select>
+
+            <select id="sido_name">
+                <option>전체</option>
+            </select>
+
+        </div>
+    </div>
+
+    <div id="map" style="width:1300px;height:800px;"></div>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=9b27e0951fe52474f5687264549b6011"></script>
+    <script>
+      var container = document.getElementById('map');
+      var options = {
+        center: new kakao.maps.LatLng(35.179734, 126.908536),
+        level: 3
+      };
+  
+      var map = new kakao.maps.Map(container, options);
+
+      var imageSrc = 'Map-Marker-PNG-Picture.png', // 마커이미지의 주소입니다    
+        imageSize = new kakao.maps.Size(64, 69),
+        imageOption = {offset: new kakao.maps.Point(27, 69)};
+        var content = '<div class="customoverlay">' +
+    '    <span class="hwakjin">n번째 확진자, n/n n시</span>' +
+    '  </a>' +
+    '</div>';
+
+// 커스텀 오버레이가 표시될 위치입니다
+var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize, imageOption);
+var markerPosition = new kakao.maps.LatLng(35.179734, 126.908536);  
+
+// 커스텀 오버레이를 생성합니다
+var marker = new kakao.maps.Marker({
+  position: markerPosition,
+  image: markerImage // 마커이미지 설정
+});
+
+// 커스텀 오버레이를 지도에 표시합니다
+marker.setMap(map);
+
+var position = new kakao.maps.LatLng(35.179734, 126.908536);  
+
+// 커스텀 오버레이를 생성합니다
+var customOverlay = new kakao.maps.CustomOverlay({
+    map: map,
+    position: position,
+    content: content,
+    yAnchor: 1 
+});
+    </script>
+
+    <!-- 라이브러리 로드 -->
+    <script src="d3.v3.min.js"></script>
+    <script src="topojson.v0.min.js"></script>
+    <script src="map_d3.js"></script>
+    <script src="chart.js"></script>
+    <script src="option.js"></script>
+    <script src="overlay.js"></script>
+
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>

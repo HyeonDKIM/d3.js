@@ -12,13 +12,23 @@
     $ use <db이름>
     $ show dbs
     $ show collections
+
+    db 삭제
+    $ db.dropDatabase()
+
+    db 만들기
+    $ use 데이터베이스이름
     
     전체 내용 출력
     $ db.<collection이름>.find()
+
+    csv import
+    $ mongoimport --db myDb --collection myCollection --type csv --headerline --file seoul.csv
     
     export
     $ mongodump --db <db이름>
     $ mongodump --db <db이름> --collection <collection이름>
+    $ mongoexport --db corona --collection PatientInfo --type=csv --fields age --out PatientInfo_age.csv
 
     import
     $ mongorestore --db <db이름> --collection <collection이름> <파일경로/파일이름>.bson
