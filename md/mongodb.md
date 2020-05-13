@@ -22,6 +22,10 @@
     전체 내용 출력
     $ db.<collection이름>.find()
 
+    내용 업데이트
+    $ db.PatientInfo.update({age:""},{$set: {age:"undefined"}}, {multi: true}) //일괄적용
+    $ db.PatientInfo.update({age:""},{$set: {age:"undefined"}}) //하나만 찾아 적용
+
     csv import
     $ mongoimport --db myDb --collection myCollection --type csv --headerline --file seoul.csv
     
