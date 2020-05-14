@@ -1,47 +1,22 @@
 @charset "utf-8";
 
-.text{
-    fill: green;
-    font-size:30px;
-    text-align:center;
-}
-
-div#chart_sample{
+div#map_sample{
     margin-left: 100px;
     float:left;
     position: relative;
-    width:600px;
-    height:900px;
+    width:1600px;
+    height:800px;
 
 }
-#chart{
-    width:600px;
-    height:900px;
-    background-color: #CADBE9;
-    font-size: 30px;
-    text-align: center;
-    margin-left: 800px;
+#chart_sample{
+    margin-left: 100px;
+    float:left;
     position: relative;
+    width:1000px;
+    height:800px;
+
 }
-#local_map{
-    width: 500px;
-    height: 400px;
-    background-color: #CEF6F5;
-    left: 50px;
-    position: absolute;
-    pointer-events: all;
-    margin: 0 auto;
-}
-#option{
-    width: 500px;
-    height: 400px;
-    background-color: #CEF6F5;
-    top: 470px;
-    left: 50px;
-    position: absolute;
-    pointer-events: all;
-    margin: 0 auto;
-}
+
 #map{
     width: 1300px;
     height: 600px;

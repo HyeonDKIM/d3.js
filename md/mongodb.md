@@ -7,6 +7,7 @@
     버전 확인, 시작
     $ mongod --version
     $ mongo
+    $ sudo npm install mongoose
 
     데이터베이스, 컬렉션 상태확인
     $ use <db이름>
