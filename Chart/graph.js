@@ -69,6 +69,7 @@ function sortAlphaNum(a, b) {
 // 데이터 api에서 가져오기---------------------------------------------------
 d3.json("/api/patient", function(data) {
   console.log("get json from api");
+  console.log(data)
  var countObj={};
 
  data.forEach(function(d) {

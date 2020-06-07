@@ -32,5 +32,21 @@ app.get('/api/patient', function(req, result){
 	})
 });
 
+app.get('/api/patient_num', function(req, result){
+	console.log("PatientNum request");
+	db.collection("Time").find().toArray(function(err, res){
+		if (err) throw err;
+		result.json(res);
+	})
+});
+
+app.get('/api/world', function(req, result){
+	console.log("WorldData request");
+	db.collection("WorldData").find().toArray(function(err, res){
+		if (err) throw err;
+		result.json(res);
+	})
+});
+
 app.listen(port, () => console.log("server opened port 8070"));
 
