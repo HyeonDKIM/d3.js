@@ -59,6 +59,16 @@ app.get('/api/patient_route', function(req, result){
 	})
 });
 
+// 데이터분석수정--------------------------------
+
+app.get('/api/overseas', function(req, result){
+	db.collection("overseas").find().toArray(function(err, res){
+		if (err) throw err;
+		result.json(res);
+	})
+});
+
+
 
 app.listen(port, () => console.log("server opened port 8070"));
 
