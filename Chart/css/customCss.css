@@ -1,115 +1,188 @@
 @charset "utf-8";
 .tooltip_graph {
-    position: absolute;
-    width: 160px;
-    height: 60px;
-    padding: 8px;
-    margin-top: -20px;
+  position: absolute;
+  width: 150px;
+  height: 70px;
+  padding: 8px;
+  margin-top: -20px;
+  font: 16px sans-serif;
+  background: #ddd;
+  pointer-events: none;
+}
+text{
     font: 16px sans-serif;
-    background: #ddd;
-    pointer-events: none;
-  }
+}
+table { 
+  width: 570px;
+  border-collapse: collapse; 
+}
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+  background: #eee; 
+}
+th {  
+  background: #333;
+  color: white; 
+  font-weight: bold; 
+}
+td, th { 
+  padding: 6px; 
+  border: 1px solid #ccc; 
+}
 
-.d3-tip {
-    line-height: 1.5;
-    font-weight: 400;
-    font-family:"avenir next", Arial, sans-serif;
-    padding: 6px;
-    background: rgba(0, 0, 0, 0.6);
-    color: #FFA500;
-    border-radius: 1px;
-    pointer-events: none;
-    }
-
-    /* Creates a small triangle extender for the tooltip */
-    .d3-tip:after {      
-      box-sizing: border-box;
-      display: inline;
-      font-size: 8px;
-      width: 100%;
-      line-height: 1.5;
-      color: rgba(0, 0, 0, 0.6);
-      position: absolute;
-      pointer-events: none;
-      
-    }
-
-    /* Northward tooltips */
-    .d3-tip.n:after {
-      content: "\25BC";
-      margin: -1px 0 0 0;
-      top: 100%;
-      left: 0;
-      text-align: center;
-    }
-
-    /* Eastward tooltips */
-    .d3-tip.e:after {
-      content: "\25C0";
-      margin: -4px 0 0 0;
-      top: 50%;
-      left: -8px;
-    }
-
-    /* Southward tooltips */
-    .d3-tip.s:after {
-      content: "\25B2";
-      margin: 0 0 1px 0;
-      top: -8px;
-      left: 0;
-      text-align: center;
-    }
-
-    /* Westward tooltips */
-    .d3-tip.w:after {
-      content: "\25B6";
-      margin: -4px 0 0 -1px;
-      top: 50%;
-      left: 100%;
-    }
-
-/*    text{
-      pointer-events:none;
-    }*/
-
-    .details{
-      color:white;
-    }
-
-div#map_sample{
-    margin-left: 100px;
+div#tmp{
+  float: right;
+  position: relative;
+  width:250px;
+  height:3000px;
+  background-color: #FFA500;
+}
+#map_global{
+    margin-left: 100;
     float:left;
-    position: relative;
+    position: absolute;
+    width:1200px;
+    height:800px;
+    font: 돋움체;
+    font-size: 25px;
+    text-align: center;
+
+}
+#map_kor{
+  margin-left: 100;
+  margin-top: 1500px;
+  float:left;
+  position: absolute;
+  width:800px;
+  height:800px;
+  font: 돋움체;
+  font-size: 20px;
+  text-align: center;
+}
+#chart_age{
+    margin-left: 50px;
+    margin-top: 2300px;
+    float:left;
+    position: absolute;
+    width:800px;
+    height:600px;
+    font: 돋움체;
+    font-size: 20px;
+    text-align: center;
+}
+#chart_region{
+  margin-left: 800px;
+  margin-top: 1550px;
+  float:left;
+  position: absolute;
+  width:800px;
+  height:700px;
+  font: 돋움체;
+  font-size: 20px;
+  text-align: center;
+}
+#chart_route{
+  margin-left: 800px;
+  margin-top: 2300px;
+  float:left;
+  position: absolute;
+  width:800px;
+  height:700px;
+  font: 돋움체;
+  font-size: 20px;
+  text-align: center;
+}
+#graph_kor{
+    margin-left: 50px;
+    margin-top: 900px;
+    float:left;
+    position: absolute;
     width:1600px;
     height:800px;
-
-}
-#chart_sample{
-    margin-left: 100px;
-    float:left;
-    position: relative;
-    width:1000px;
-    height:800px;
-
-}
-#graph_sample{
-    margin-left: 100px;
-    float:left;
-    position: relative;
-    width:1000px;
-    height:800px;
-
-}
-
-#map{
-    width: 1300px;
-    height: 600px;
-    margin-top: 50px;
-    margin-left: 100px;
-    background-color: #CADBE9;
-    bottom:0px;
+    font: 돋움체;
     font-size: 30px;
+    text-align: center;
 }
+#table_global{
+  text-align: center;
+  position: absolute;
+  margin-right: 300px;
+  margin-left:1000px;
+  overflow:scroll;
+  width: 600px;
+  height: 750px;
+  font: 돋움체;
+  font-size: 20px;
+}
+
 svg text {
     font-size: 12px;
 }
+
+
+.d3-tip {
+  line-height: 1.5;
+  font-weight: 400;
+  font-family:"avenir next", Arial, sans-serif;
+  padding: 6px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #FFA500;
+  border-radius: 1px;
+  pointer-events: none;
+  }
+
+  /* Creates a small triangle extender for the tooltip */
+  .d3-tip:after {      
+    box-sizing: border-box;
+    display: inline;
+    font-size: 8px;
+    width: 100%;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    pointer-events: none;
+    
+  }
+
+  /* Northward tooltips */
+  .d3-tip.n:after {
+    content: "\25BC";
+    margin: -1px 0 0 0;
+    top: 100%;
+    left: 0;
+    text-align: center;
+  }
+
+  /* Eastward tooltips */
+  .d3-tip.e:after {
+    content: "\25C0";
+    margin: -4px 0 0 0;
+    top: 50%;
+    left: -8px;
+  }
+
+  /* Southward tooltips */
+  .d3-tip.s:after {
+    content: "\25B2";
+    margin: 0 0 1px 0;
+    top: -8px;
+    left: 0;
+    text-align: center;
+  }
+
+  /* Westward tooltips */
+  .d3-tip.w:after {
+    content: "\25B6";
+    margin: -4px 0 0 -1px;
+    top: 50%;
+    left: 100%;
+  }
+
+/*    text{
+    pointer-events:none;
+  }*/
+
+  .details{
+    color:white;
+  }
+

@@ -8,16 +8,16 @@ var tip = d3.tip()
             })
 
 var margin = {top: 30, right: 30, bottom: 70, left: 60},
-    width = 1600 - margin.left - margin.right,
+    width = 1200 - margin.left - margin.right,
     height = 800 - margin.top - margin.bottom;
 
 var color = d3.scaleThreshold()
     .domain([0,1,10000,100000,500000,1000000,5000000,10000000])
-    .range(["white", "rgb(198,219,239)", "rgb(66,146,198)", "rgb(33,113,181)","rgb(8,81,156)","rgb(8,48,107)","rgb(3,19,43)"]);
+    .range(["#ffffff", "#FBC6C6", "#F9A1A1","#F57F7F","#F24F4F","#FD0606","#AE0404", "#5A0303"]);
 
 var path = d3.geoPath();
 
-var svg_map = d3.select("#map_sample")
+var svg_map = d3.select("#map_global")
     .append("svg")
     .attr("width", width)
     .attr("height", height)
@@ -26,8 +26,8 @@ var svg_map = d3.select("#map_sample")
 
 // Map and projection
 var projection = d3.geoMercator()
-    .scale(width / 3.0 / Math.PI)
-    .translate([width / 2.5, height / 1.5]);
+    .scale(width / 2.8 / Math.PI)
+    .translate([width / 2.7, height / 1.7]);
 
 var path = d3.geoPath().projection(projection);
 
@@ -39,7 +39,6 @@ queue()
 .await(ready);
 
 function ready(error, data, TotalCases){
-   // console.log(data);
     var populationById = {};
     TotalCases.forEach(function(d) { populationById[d.Country] = +d.TotalCases;});
     data.features.forEach(function(d) { d.TotalCases = populationById[d.properties.name]});
