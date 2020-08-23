@@ -1,0 +1,52 @@
+[
+    {
+        "disease": "감기",
+        "treatment": "한방치료",
+        "id": "1"
+    },
+    {
+        "disease": "감기",
+        "treatment": "한방치료",
+        "id": "2"
+    },
+    {
+        "disease": "감기",
+        "treatment": "한방치료",
+        "id": "3"
+    },
+    {
+        "disease": "감기",
+        "treatment": "약물치료",
+        "id": "4"
+    },
+    {
+        "disease": "감기",
+        "treatment": "한방치료",
+        "id": "5"
+    },
+    {
+        "disease": "감기",
+        "treatment": "약물치료",
+        "id": "6"
+    },
+    {
+        "disease": "감기",
+        "treatment": "민간요법",
+        "id": "7"
+    },
+    {
+        "disease": "감기",
+        "treatment": "몰라",
+        "id": "8"
+    },
+    {
+        "disease": "감기",
+        "treatment": "예시",
+        "id": "9"
+    },
+    {
+        "disease": "감기",
+        "treatment": "민간요법",
+        "id": "10"
+    }
+] 

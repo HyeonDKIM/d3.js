@@ -80,7 +80,7 @@ d3.json("/api/patient", function(data) {
       countObj[age] = countObj[age] + 1;
   }
 })
-//console.log(countObj);
+console.log(countObj);
 
 data.forEach(function(d) {
   var age = d.age;
