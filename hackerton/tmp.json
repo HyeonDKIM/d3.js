@@ -1,52 +1,58 @@
 [
     {
-        "disease": "감기",
-        "treatment": "한방치료",
-        "id": "1"
+        "maininjurycode": "A00",
+        "treatment": "한방치료"
     },
     {
-        "disease": "감기",
-        "treatment": "한방치료",
-        "id": "2"
+        "maininjurycode": "A00",
+        "treatment": "한방치료"
     },
     {
-        "disease": "감기",
-        "treatment": "한방치료",
-        "id": "3"
+        "maininjurycode": "A00",
+        "treatment": "한방치료"
     },
     {
-        "disease": "감기",
-        "treatment": "약물치료",
-        "id": "4"
+        "maininjurycode": "A00",
+        "treatment": "약물치료"
     },
     {
-        "disease": "감기",
-        "treatment": "한방치료",
-        "id": "5"
+        "maininjurycode": "A00",
+        "treatment": "한방치료"
     },
     {
-        "disease": "감기",
-        "treatment": "약물치료",
-        "id": "6"
+        "maininjurycode": "A00",
+        "treatment": "약물치료"
     },
     {
-        "disease": "감기",
-        "treatment": "민간요법",
-        "id": "7"
+        "maininjurycode": "A00",
+        "treatment": "민간요법"
     },
     {
-        "disease": "감기",
-        "treatment": "몰라",
-        "id": "8"
+        "maininjurycode": "A00",
+        "treatment": "자연치료"
     },
     {
-        "disease": "감기",
-        "treatment": "예시",
-        "id": "9"
+        "maininjurycode": "A00",
+        "treatment": "자연치료"
     },
     {
-        "disease": "감기",
-        "treatment": "민간요법",
-        "id": "10"
+        "maininjurycode": "A00",
+        "treatment": "자연치료"
+    },
+    {
+        "maininjurycode": "A00",
+        "treatment": "자연치료"
+    },
+    {
+        "maininjurycode": "A00",
+        "treatment": "자연치료"
+    },
+    {
+        "maininjurycode": "A00",
+        "treatment": "보류"
+    },
+    {
+        "maininjurycode": "A03",
+        "treatment": "테스트"
     }
 ] 
