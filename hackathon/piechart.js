@@ -1,5 +1,5 @@
 var width_pie = 450
-    height_pie = 450
+    height_pie = 500
     margin_pie = 40
 
 var radius = Math.min(width_pie, height_pie) / 2 - margin_pie
@@ -7,24 +7,27 @@ var radius = Math.min(width_pie, height_pie) / 2 - margin_pie
 // 주상병코드 받았다고 가정
 var get_maininjurycode = "A00";
 // 부상병코드 받았다고 가정
-var get_viceinjurycode = "A03";
+var get_viceinjurycode = "A00";
 var pie_main = "pie_main";
 var pie_vice = "pie_vice";
 var table_main = "table_main";
 var table_vice = "table_vice";
 
+// 병 이름은 이 변수 수정
+var get_mainname = "병 이름이 뭘까용"
+var get_vicename = "나도 몰라용"
 
 if (get_viceinjurycode===""){
-    make_charts(get_maininjurycode, pie_main, table_main);
+    make_charts(get_maininjurycode, pie_main, table_main, get_mainname);
     alert("부상병코드가 없으므로 주상병코드의 차트만 표시합니다.");
 }
 else{
-    make_charts(get_maininjurycode, pie_main, table_main);
-    make_charts(get_viceinjurycode, pie_vice, table_vice);
+    make_charts(get_maininjurycode, pie_main, table_main, get_mainname);
+    make_charts(get_viceinjurycode, pie_vice, table_vice, get_vicename);
 }
 
 
-function make_charts(get_code, tag_pie, tag_table){
+function make_charts(get_code, tag_pie, tag_table, get_name){
 
     var svg_pie = d3.select("#"+tag_pie)
     .append("svg")
@@ -148,6 +151,14 @@ function make_charts(get_code, tag_pie, tag_table){
       .style("text-anchor", "middle")
       .style("font-size", 15)
     
+    svg_pie.append("text")
+    .attr("x", 0)             
+    .attr("y", 225)
+    .attr("text-anchor", "middle")  
+    .style("font-size", "20px")
+    .style("font-weight", "bold")  
+    .text(get_name);
+
     // 차트 그리기-----------------------------------------------
     
     var tableArr = new Array();
