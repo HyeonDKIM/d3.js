@@ -20,16 +20,6 @@ td, th {
   padding: 6px; 
   border: 1px solid #ccc; 
 }
-#main_name{
-    font-weight: bold; 
-    text-align: center;
-    position: absolute;
-    margin-right: 40px;
-    margin-left:40px;
-}
-#vice_name{
-
-}
 #pie_main{
     font-weight: bold; 
     text-align: center;

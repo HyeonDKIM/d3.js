@@ -15,8 +15,8 @@ var table_vice = "table_vice";
 
 
 if (get_viceinjurycode===""){
-    make_charts(get_maininjurycode);
-    console.log("부상병코드 없음");
+    make_charts(get_maininjurycode, pie_main, table_main);
+    alert("부상병코드가 없으므로 주상병코드의 차트만 표시합니다.");
 }
 else{
     make_charts(get_maininjurycode, pie_main, table_main);
