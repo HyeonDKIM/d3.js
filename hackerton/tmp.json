@@ -1,58 +1,58 @@
 [
     {
-        "maininjurycode": "A00",
+        "injurycode": "A00",
         "treatment": "한방치료"
     },
     {
-        "maininjurycode": "A00",
+        "injurycode": "A00",
         "treatment": "한방치료"
     },
     {
-        "maininjurycode": "A00",
+        "injurycode": "A00",
         "treatment": "한방치료"
     },
     {
-        "maininjurycode": "A00",
+        "injurycode": "A00",
         "treatment": "약물치료"
     },
     {
-        "maininjurycode": "A00",
+        "injurycode": "A00",
         "treatment": "한방치료"
     },
     {
-        "maininjurycode": "A00",
+        "injurycode": "A00",
         "treatment": "약물치료"
     },
     {
-        "maininjurycode": "A00",
+        "injurycode": "A00",
         "treatment": "민간요법"
     },
     {
-        "maininjurycode": "A00",
+        "injurycode": "A00",
         "treatment": "자연치료"
     },
     {
-        "maininjurycode": "A00",
+        "injurycode": "A00",
         "treatment": "자연치료"
     },
     {
-        "maininjurycode": "A00",
+        "injurycode": "A00",
         "treatment": "자연치료"
     },
     {
-        "maininjurycode": "A00",
+        "injurycode": "A00",
         "treatment": "자연치료"
     },
     {
-        "maininjurycode": "A00",
+        "injurycode": "A00",
         "treatment": "자연치료"
     },
     {
-        "maininjurycode": "A00",
+        "injurycode": "A00",
         "treatment": "보류"
     },
     {
-        "maininjurycode": "A03",
+        "injurycode": "A03",
         "treatment": "테스트"
     }
 ] 
